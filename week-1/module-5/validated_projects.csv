@@ -1,0 +1,8 @@
+project_id,client_id,service,cost,duration,satisfaction,repeat_client,status
+PRJ_001,C001,Data Analytics,22000,30,4,Yes,Completed
+PRJ_002,C002,Software Dev,50000,65,2,No,Delayed
+PRJ_003,C003,Cloud Migration,28000,25,5,Yes,Completed
+PRJ_004,C004,Cybersecurity Audit,18000,18,3,No,Completed
+PRJ_005,C005,IT Support Package,10000,7,4,No,Completed
+PRJ_006,C006,Website Development,8000,10,3,No,Delayed
+PRJ_007,C007,IT Infrastructure,35000,40,4,Yes,Completed

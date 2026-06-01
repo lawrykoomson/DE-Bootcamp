@@ -1,0 +1,11 @@
+emp_id,name,department,salary,gender,years_experience,performance_score,is_active
+EMP001,Kofi Mensah,Engineering,8500,Male,5,4.2,Yes
+EMP002,  Ama Asante  ,sales,6200,Female,3,3.8,Yes
+EMP003,Kwame Boateng,Finance,-500,Male,7,4.5,Yes
+EMP004,Abena Owusu,Marketing,7100,Female,4,4.0,No
+,Yaw Darko,IT,9200,Male,6,3.5,Yes
+EMP006,Efua Mensah,HR,5800,Female,2,4.1,Yes
+EMP007,Kojo Asare,Operations,7500,Male,8,4.7,Yes
+EMP008,Akosua Frimpong,Engineering,9500,Female,5,4.3,Yes
+EMP009,Nana Adu,UNKNOWN_DEPT,6000,Male,3,3.2,Yes
+EMP010,Adwoa Boateng,Finance,8800,Female,6,4.6,No

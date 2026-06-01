@@ -1,0 +1,8 @@
+project_id,client_id,service,cost_ghs,duration_days,satisfaction_score,is_repeat_client,completion_status,processed_at
+PRJ_001,C001,Data Analytics,22000,30,4.0,True,Completed,2026-06-01 01:17:28
+PRJ_002,C002,Software Dev,50000,65,2.0,False,Delayed,2026-06-01 01:17:28
+PRJ_003,C003,Cloud Migration,28000,25,5.0,True,Completed,2026-06-01 01:17:28
+PRJ_004,C004,Cybersecurity Audit,18000,18,3.0,False,Completed,2026-06-01 01:17:28
+PRJ_005,C005,IT Support Package,10000,7,4.0,False,Completed,2026-06-01 01:17:28
+PRJ_006,C006,Website Development,8000,10,3.0,False,Delayed,2026-06-01 01:17:28
+PRJ_007,C007,IT Infrastructure,35000,40,4.0,True,Completed,2026-06-01 01:17:28

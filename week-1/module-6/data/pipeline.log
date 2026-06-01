@@ -1,0 +1,64 @@
+2026-06-01 10:01:46 | INFO | =============================================
+2026-06-01 10:01:46 | INFO |   Ghana HR Data Ingestion Pipeline
+2026-06-01 10:01:46 | INFO |   Version: 1.0.0
+2026-06-01 10:01:46 | INFO |   Author:  Lawrence Koomson
+2026-06-01 10:01:46 | INFO | =============================================
+2026-06-01 10:01:46 | INFO | ▶ Step 1: Creating raw data
+2026-06-01 10:01:46 | INFO | Raw data written to data/raw_hr_data.csv (10 records)
+2026-06-01 10:01:46 | INFO | ✅ Step 1 complete: 10 records created
+2026-06-01 10:01:46 | INFO | ▶ Step 2: Reading raw CSV
+2026-06-01 10:01:46 | INFO | Loaded 10 records from data/raw_hr_data.csv
+2026-06-01 10:01:46 | INFO | ✅ Step 2 complete: 10 records loaded
+2026-06-01 10:01:46 | INFO | ▶ Step 3: Validating & transforming
+2026-06-01 10:01:46 | INFO |   ✅ EMP001 — valid
+2026-06-01 10:01:46 | INFO |   ✅ EMP002 — valid
+2026-06-01 10:01:46 | WARNING |   ❌ EMP003 — rejected: Salary -500.0 out of range (500-50000)
+2026-06-01 10:01:46 | INFO |   ✅ EMP004 — valid
+2026-06-01 10:01:46 | WARNING |   ❌  — rejected: Missing employee ID
+2026-06-01 10:01:46 | WARNING |   ❌ EMP006 — rejected: Invalid department: 'HR'
+2026-06-01 10:01:46 | INFO |   ✅ EMP007 — valid
+2026-06-01 10:01:46 | INFO |   ✅ EMP008 — valid
+2026-06-01 10:01:46 | WARNING |   ❌ EMP009 — rejected: Invalid department: 'UNKNOWN_DEPT'
+2026-06-01 10:01:46 | INFO |   ✅ EMP010 — valid
+2026-06-01 10:01:46 | INFO | ✅ Step 3 complete: 6 valid, 4 rejected
+2026-06-01 10:01:46 | INFO | ▶ Step 4: Writing clean data
+2026-06-01 10:01:46 | INFO | Clean data written to data/clean_hr_data.csv (6 records)
+2026-06-01 10:01:46 | INFO | ✅ Step 4 complete
+2026-06-01 10:01:46 | INFO | ▶ Step 5: Generating report
+2026-06-01 10:01:46 | INFO | Report written to data/pipeline_report.json
+2026-06-01 10:01:46 | INFO | ✅ Step 5 complete
+2026-06-01 10:01:46 | INFO | =============================================
+2026-06-01 10:01:46 | INFO | PIPELINE SUCCESS in 0.02s
+2026-06-01 10:01:46 | INFO | =============================================
+2026-06-01 10:07:32 | INFO | =============================================
+2026-06-01 10:07:32 | INFO |   Ghana HR Data Ingestion Pipeline
+2026-06-01 10:07:32 | INFO |   Version: 1.0.0
+2026-06-01 10:07:32 | INFO |   Author:  Lawrence Koomson
+2026-06-01 10:07:32 | INFO | =============================================
+2026-06-01 10:07:32 | INFO | ▶ Step 1: Creating raw data
+2026-06-01 10:07:32 | INFO | Raw data written to data/raw_hr_data.csv (10 records)
+2026-06-01 10:07:32 | INFO | ✅ Step 1 complete: 10 records created
+2026-06-01 10:07:32 | INFO | ▶ Step 2: Reading raw CSV
+2026-06-01 10:07:32 | INFO | Loaded 10 records from data/raw_hr_data.csv
+2026-06-01 10:07:32 | INFO | ✅ Step 2 complete: 10 records loaded
+2026-06-01 10:07:32 | INFO | ▶ Step 3: Validating & transforming
+2026-06-01 10:07:32 | INFO |   ✅ EMP001 — valid
+2026-06-01 10:07:32 | INFO |   ✅ EMP002 — valid
+2026-06-01 10:07:32 | WARNING |   ❌ EMP003 — rejected: Salary -500.0 out of range (500-50000)
+2026-06-01 10:07:32 | INFO |   ✅ EMP004 — valid
+2026-06-01 10:07:32 | WARNING |   ❌  — rejected: Missing employee ID
+2026-06-01 10:07:32 | INFO |   ✅ EMP006 — valid
+2026-06-01 10:07:32 | INFO |   ✅ EMP007 — valid
+2026-06-01 10:07:32 | INFO |   ✅ EMP008 — valid
+2026-06-01 10:07:32 | WARNING |   ❌ EMP009 — rejected: Invalid department: 'UNKNOWN_DEPT'
+2026-06-01 10:07:32 | INFO |   ✅ EMP010 — valid
+2026-06-01 10:07:32 | INFO | ✅ Step 3 complete: 7 valid, 3 rejected
+2026-06-01 10:07:32 | INFO | ▶ Step 4: Writing clean data
+2026-06-01 10:07:32 | INFO | Clean data written to data/clean_hr_data.csv (7 records)
+2026-06-01 10:07:32 | INFO | ✅ Step 4 complete
+2026-06-01 10:07:32 | INFO | ▶ Step 5: Generating report
+2026-06-01 10:07:32 | INFO | Report written to data/pipeline_report.json
+2026-06-01 10:07:32 | INFO | ✅ Step 5 complete
+2026-06-01 10:07:32 | INFO | =============================================
+2026-06-01 10:07:32 | INFO | PIPELINE SUCCESS in 0.02s
+2026-06-01 10:07:32 | INFO | =============================================

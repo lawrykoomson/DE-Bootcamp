@@ -1,0 +1,47 @@
+{
+    "pipeline_name": "Ghana HR Data Ingestion Pipeline",
+    "version": "1.0.0",
+    "author": "Lawrence Koomson",
+    "run_timestamp": "2026-06-01 10:07:32",
+    "processing_stats": {
+        "total_records": 10,
+        "valid_records": 7,
+        "invalid_records": 3,
+        "rejected_records": [
+            {
+                "emp_id": "EMP003",
+                "reason": "Salary -500.0 out of range (500-50000)"
+            },
+            {
+                "emp_id": "",
+                "reason": "Missing employee ID"
+            },
+            {
+                "emp_id": "EMP009",
+                "reason": "Invalid department: 'UNKNOWN_DEPT'"
+            }
+        ],
+        "status": "RUNNING"
+    },
+    "hr_summary": {
+        "total_employees": 7,
+        "active_employees": 5,
+        "avg_salary_ghs": 7628.57,
+        "max_salary_ghs": 9500.0,
+        "min_salary_ghs": 5800.0,
+        "avg_performance": 4.24,
+        "departments": {
+            "Engineering": 2,
+            "Sales": 1,
+            "Marketing": 1,
+            "Hr": 1,
+            "Operations": 1,
+            "Finance": 1
+        },
+        "salary_bands": {
+            "Senior": 3,
+            "Mid": 4,
+            "Junior": 0
+        }
+    }
+}

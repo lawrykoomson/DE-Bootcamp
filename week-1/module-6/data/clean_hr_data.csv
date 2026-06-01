@@ -1,0 +1,8 @@
+emp_id,name,department,salary_ghs,gender,years_experience,performance_score,is_active,salary_band,processed_at
+EMP001,Kofi Mensah,Engineering,8500.0,Male,5,4.2,True,Senior,2026-06-01 10:07:32
+EMP002,Ama Asante,Sales,6200.0,Female,3,3.8,True,Mid,2026-06-01 10:07:32
+EMP004,Abena Owusu,Marketing,7100.0,Female,4,4.0,False,Mid,2026-06-01 10:07:32
+EMP006,Efua Mensah,Hr,5800.0,Female,2,4.1,True,Mid,2026-06-01 10:07:32
+EMP007,Kojo Asare,Operations,7500.0,Male,8,4.7,True,Mid,2026-06-01 10:07:32
+EMP008,Akosua Frimpong,Engineering,9500.0,Female,5,4.3,True,Senior,2026-06-01 10:07:32
+EMP010,Adwoa Boateng,Finance,8800.0,Female,6,4.6,False,Senior,2026-06-01 10:07:32

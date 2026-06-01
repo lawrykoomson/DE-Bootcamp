@@ -1,0 +1,28 @@
+2026-06-01 01:23:46 | ERROR | Division by zero: 10 / 0
+2026-06-01 01:23:46 | WARNING | Cannot convert 'abc' to int: invalid literal for int() with base 10: 'abc'
+2026-06-01 01:23:46 | WARNING | Cannot convert 'None' to int: int() argument must be a string, a bytes-like object or a real number, not 'NoneType'
+2026-06-01 01:23:46 | INFO | Record 1 (PRJ_001) validated successfully
+2026-06-01 01:23:46 | WARNING | Record 2 failed: Invalid cost: -500. Must be greater than 0
+2026-06-01 01:23:46 | WARNING | Record 3 failed: Missing required field: 'project_id'
+2026-06-01 01:23:46 | INFO | Attempting to read: ../module-4/raw_projects.csv
+2026-06-01 01:23:46 | INFO | Successfully loaded 7 records from ../module-4/raw_projects.csv
+2026-06-01 01:23:46 | INFO | Finished processing: ../module-4/raw_projects.csv
+2026-06-01 01:23:46 | INFO | Attempting to read: missing_file.csv
+2026-06-01 01:23:46 | ERROR | File not found: missing_file.csv
+2026-06-01 01:23:46 | INFO | Finished processing: missing_file.csv
+2026-06-01 01:23:46 | INFO | ========================================
+2026-06-01 01:23:46 | INFO | PIPELINE STARTED
+2026-06-01 01:23:46 | INFO | Input:  ../module-4/raw_projects.csv
+2026-06-01 01:23:46 | INFO | Output: validated_projects.csv
+2026-06-01 01:23:46 | INFO | ========================================
+2026-06-01 01:23:46 | INFO | Step 1: Reading input file
+2026-06-01 01:23:46 | INFO | Attempting to read: ../module-4/raw_projects.csv
+2026-06-01 01:23:46 | INFO | Successfully loaded 7 records from ../module-4/raw_projects.csv
+2026-06-01 01:23:46 | INFO | Finished processing: ../module-4/raw_projects.csv
+2026-06-01 01:23:46 | INFO | Step 1 complete: 7 records loaded
+2026-06-01 01:23:46 | INFO | Step 2: Validating records
+2026-06-01 01:23:46 | INFO | Step 2 complete: 7 valid, 0 invalid
+2026-06-01 01:23:46 | INFO | Step 3: Writing output file
+2026-06-01 01:23:46 | INFO | Step 3 complete: 7 records written to validated_projects.csv
+2026-06-01 01:23:46 | INFO | Pipeline finished in 0.01s
+2026-06-01 01:23:46 | INFO | Stats: {'total_read': 7, 'valid': 7, 'invalid': 0, 'errors': []}
