@@ -1,0 +1,99 @@
+# 🛠️ Data Engineering Bootcamp
+## GetSkills Network & Thrive Africa
+
+A hands-on Data Engineering bootcamp covering Python,
+Pandas, BigQuery, SQL, AWS, Azure and Apache Spark.
+
+---
+
+## 📅 Progress Tracker
+
+| Week | Topic | Status |
+|------|-------|--------|
+| Week 0 | Linux & Bash | ✅ Complete |
+| Week 1 | Python for Data Engineering | ✅ Complete |
+| Week 2 | Pandas for Data Engineering | ✅ Complete |
+| Week 3 | BigQuery + REST APIs | 🔄 Up Next |
+| Weeks 4-5 | SQL Foundations | ⏳ Coming |
+| Weeks 6-10 | AWS Cloud | ⏳ Coming |
+| Weeks 8-12 | Azure Cloud | ⏳ Coming |
+| Weeks 10-14 | Apache Spark | ⏳ Coming |
+| Final | Capstone Project | ⏳ Coming |
+
+---
+
+## 🐍 Week 1 — Python for Data Engineering
+
+### Modules Completed
+
+| Module | File | What Was Built |
+|--------|------|----------------|
+| Module 1 | hello_de.py | First DE script — pipeline metadata |
+| Module 2 | data_types.py | All 7 Python data types for DE |
+| Module 3 | control_flow.py | if/else, loops, functions, validation |
+| Module 4 | file_io.py | CSV and JSON read/write pipeline |
+| Module 5 | error_handling.py | try/except, logging, custom errors |
+| Module 6 | ghana_hr_pipeline.py | Complete ETL pipeline — Capstone |
+
+### 🏆 Week 1 Capstone — Ghana HR Data Pipeline
+- ✅ 10 records ingested
+- ✅ 7 valid records processed
+- ❌ 3 records correctly rejected
+- ⏱️ Completed in 0.02 seconds
+- 📄 4 output files generated
+
+---
+
+## 🐼 Week 2 — Pandas for Data Engineering
+
+**Dataset:** Telco Customer Churn
+(7,043 customers, 21 columns, real Kaggle data)
+
+### Modules Completed
+
+| Module | File | What Was Built |
+|--------|------|----------------|
+| Module 1 | explore.py | Dataset profiling — shape, dtypes, nulls |
+| Module 2 | clean.py | TotalCharges fix, type casting, feature engineering |
+| Module 3 | analyse.py | Filtering, groupby, churn analysis |
+| Module 4 | merge.py | Joins, concat, enriched datasets |
+| Module 5 | visualise.py | 6-chart dashboard + correlation heatmap |
+| Module 6 | telco_pipeline.py | Complete ETL + Analysis Capstone |
+
+### 🏆 Week 2 Capstone — Telco Churn Analysis Pipeline
+
+A complete production-ready pipeline analysing
+customer churn for a telecom company.
+
+**Pipeline Results:**
+- ✅ 7,043 customers processed in 3.55 seconds
+- 📊 26.54% overall churn rate identified
+- 💰 $139,130.85 monthly revenue at risk
+- 🔴 Month-to-month = 42.7% churn (highest risk)
+- 🟢 Two year contract = 2.8% churn (safest)
+- 🔴 New customers (0-12 months) = 47.4% churn
+- 🔴 Fiber optic = 41.9% churn rate
+- 📄 4 output files generated automatically
+
+**Key Recommendations:**
+1. Convert month-to-month to longer contracts
+2. Fix first 12 months customer experience
+3. Investigate Fiber optic service quality
+4. Offer auto-pay incentives
+5. Target senior citizens with dedicated support
+
+**Skills Demonstrated:**
+- Pandas DataFrames and Series
+- Data cleaning and type casting
+- Filtering and aggregation with groupby
+- Merging and joining multiple DataFrames
+- Matplotlib and Seaborn visualisations
+- Complete ETL pipeline design
+
+---
+
+## 👤 Author
+**Lawrence Koomson**
+Data Engineering Student | Accra, Ghana
+🔗 [LinkedIn](https://linkedin.com/in/lawrence-koomson-689774266)
+🐙 [GitHub](https://github.com/lawrykoomson)
