@@ -1,0 +1,4 @@
+2026-06-01 23:10:31 | INFO | Loading Telco Customer Churn dataset
+2026-06-01 23:10:31 | INFO | Dataset loaded: 7,043 rows x 21 columns
+2026-06-01 23:10:31 | WARNING | TotalCharges has 11 non-numeric values — all have tenure=0
+2026-06-01 23:10:31 | INFO | Module 1 exploration complete

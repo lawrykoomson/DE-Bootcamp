@@ -1,0 +1,8 @@
+2026-06-01 23:28:48 | INFO | Loading clean Telco dataset
+2026-06-01 23:28:48 | INFO | Supplementary tables created: contract_pricing, internet_sla, payment_risk
+2026-06-01 23:28:49 | INFO | Inner join with contract_pricing complete
+2026-06-01 23:28:49 | INFO | Left join with internet_sla complete
+2026-06-01 23:28:49 | INFO | Payment risk merge complete
+2026-06-01 23:28:49 | INFO | Concat of churned + retained complete
+2026-06-01 23:28:49 | INFO | Enriched dataset saved: 7,043 rows, 32 columns
+2026-06-01 23:28:49 | INFO | Module 4 merging complete

@@ -1,0 +1,5 @@
+2026-06-01 23:26:29 | INFO | Loading clean Telco dataset
+2026-06-01 23:26:29 | INFO | Filtering complete: 1869 churned, 5174 retained
+2026-06-01 23:26:29 | INFO | Contract churn analysis complete
+2026-06-01 23:26:29 | INFO | Revenue analysis: $139,130.85 monthly revenue at risk from churn
+2026-06-01 23:26:29 | INFO | Module 3 analysis complete

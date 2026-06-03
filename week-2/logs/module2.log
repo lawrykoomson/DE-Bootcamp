@@ -1,0 +1,20 @@
+2026-06-01 23:19:17 | INFO | Loading raw Telco dataset
+2026-06-01 23:19:18 | INFO | Before cleaning: (7043, 21), 0 nulls
+2026-06-01 23:19:18 | INFO | TotalCharges converted from str to float64
+2026-06-01 23:19:18 | INFO | Missing TotalCharges filled with 0.0 (new customers with tenure=0)
+2026-06-01 23:19:18 | INFO | SeniorCitizen converted from 0/1 to No/Yes
+2026-06-01 23:19:18 | INFO | Whitespace stripped from 17 string columns
+2026-06-01 23:19:18 | INFO | Churn converted from Yes/No to bool
+2026-06-01 23:19:18 | INFO | Added tenure_group and charge_band columns
+2026-06-01 23:19:18 | INFO | Clean data saved to ..\data\processed\telco_clean.csv (7,043 rows, 23 cols)
+2026-06-01 23:19:18 | INFO | Module 2 cleaning complete
+2026-06-01 23:24:38 | INFO | Loading raw Telco dataset
+2026-06-01 23:24:38 | INFO | Before cleaning: (7043, 21), 0 nulls
+2026-06-01 23:24:38 | INFO | TotalCharges converted from str to float64
+2026-06-01 23:24:38 | INFO | Missing TotalCharges filled with 0.0 (new customers with tenure=0)
+2026-06-01 23:24:38 | INFO | SeniorCitizen converted from 0/1 to No/Yes
+2026-06-01 23:24:38 | INFO | Whitespace stripped from 17 string columns
+2026-06-01 23:24:38 | INFO | Churn converted from Yes/No to bool
+2026-06-01 23:24:38 | INFO | Added tenure_group and charge_band columns
+2026-06-01 23:24:39 | INFO | Clean data saved to ..\data\processed\telco_clean.csv (7,043 rows, 23 cols)
+2026-06-01 23:24:39 | INFO | Module 2 cleaning complete

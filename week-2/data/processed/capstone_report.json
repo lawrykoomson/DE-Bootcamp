@@ -1,0 +1,46 @@
+{
+    "pipeline_name": "Telco Churn Analysis Pipeline",
+    "version": "1.0.0",
+    "author": "Lawrence Koomson",
+    "run_timestamp": "2026-06-02 22:57:17",
+    "insights": {
+        "total_customers": 7043,
+        "churned_customers": 1869,
+        "retained_customers": 5174,
+        "churn_rate_pct": 26.54,
+        "monthly_revenue_at_risk": 139130.85,
+        "avg_monthly_charge_churned": 74.44,
+        "avg_monthly_charge_retained": 61.27,
+        "churn_by_contract": {
+            "Month-to-month": 42.7,
+            "One year": 11.3,
+            "Two year": 2.8
+        },
+        "churn_by_tenure": {
+            "0-12 months": 47.4,
+            "13-24 months": 28.7,
+            "25-48 months": 20.4,
+            "49+ months": 9.5
+        },
+        "churn_by_internet": {
+            "DSL": 19.0,
+            "Fiber optic": 41.9,
+            "No": 7.4
+        },
+        "churn_by_payment": {
+            "Bank transfer (automatic)": 16.7,
+            "Credit card (automatic)": 15.2,
+            "Electronic check": 45.3,
+            "Mailed check": 19.1
+        },
+        "top_risk_factor": "Month-to-month",
+        "safest_contract": "Two year"
+    },
+    "recommendations": [
+        "Convert month-to-month customers to longer contracts \u2014 reduces churn from 42.7% to 2.8%",
+        "Focus retention on first 12 months \u2014 47.4% churn rate in year 1",
+        "Investigate Fiber optic quality \u2014 41.9% churn despite premium price",
+        "Offer auto-pay incentives \u2014 electronic check = 45.3% churn",
+        "Target senior citizens with dedicated support packages"
+    ]
+}

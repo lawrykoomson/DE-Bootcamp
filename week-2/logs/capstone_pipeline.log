@@ -1,0 +1,25 @@
+2026-06-02 22:57:13 | INFO | ==================================================
+2026-06-02 22:57:13 | INFO |   Telco Churn Analysis Pipeline
+2026-06-02 22:57:13 | INFO |   Version: 1.0.0
+2026-06-02 22:57:13 | INFO |   Author:  Lawrence Koomson
+2026-06-02 22:57:13 | INFO | ==================================================
+2026-06-02 22:57:13 | INFO | ▶ Step 1: Extract
+2026-06-02 22:57:13 | INFO | Extracting data from C:\Users\DELL\Documents\DE_Bootcamp\week-2\data\raw\WA_Fn-UseC_-Telco-Customer-Churn.csv
+2026-06-02 22:57:14 | INFO | Extracted 7,043 rows x 21 columns
+2026-06-02 22:57:14 | INFO | ▶ Step 2: Validate
+2026-06-02 22:57:14 | INFO | Validating raw dataset
+2026-06-02 22:57:14 | INFO | Validation passed — no issues found
+2026-06-02 22:57:14 | INFO | ▶ Step 3: Transform
+2026-06-02 22:57:14 | INFO | Transforming dataset
+2026-06-02 22:57:14 | INFO | Transform complete: 7,043 rows, 25 columns
+2026-06-02 22:57:14 | INFO | ▶ Step 4: Analyse
+2026-06-02 22:57:14 | INFO | Running churn analysis
+2026-06-02 22:57:14 | INFO | Analysis complete: 26.5% churn rate, $139,130.85 at risk
+2026-06-02 22:57:14 | INFO | ▶ Step 5: Visualise
+2026-06-02 22:57:14 | INFO | Generating visualisations
+2026-06-02 22:57:17 | INFO | Charts saved to C:\Users\DELL\Documents\DE_Bootcamp\week-2\data\charts\capstone_dashboard.png
+2026-06-02 22:57:17 | INFO | ▶ Step 6: Load
+2026-06-02 22:57:17 | INFO | Saving pipeline outputs
+2026-06-02 22:57:17 | INFO | Clean data saved: C:\Users\DELL\Documents\DE_Bootcamp\week-2\data\processed\capstone_clean.csv
+2026-06-02 22:57:17 | INFO | Report saved: C:\Users\DELL\Documents\DE_Bootcamp\week-2\data\processed\capstone_report.json
+2026-06-02 22:57:17 | INFO | Pipeline SUCCESS in 3.55s
