@@ -1,0 +1,9 @@
+city,latitude,longitude,temperature_c,humidity_pct,precipitation_mm,wind_speed_kmh,weather_condition,weather_code,fetched_at,country,country_population,country_currency,country_region
+Accra,5.556,-0.1969,24.6,94,0.3,5.3,Rainy 🌧️,55,2026-06-03 21:34:17,Ghana,33742380,GHS,Africa
+Kumasi,6.6885,-1.6244,24.5,96,0.0,7.6,Cloudy ⛅,3,2026-06-03 21:34:18,Ghana,33742380,GHS,Africa
+Tamale,9.4075,-0.8533,25.8,91,0.0,13.7,Cloudy ⛅,3,2026-06-03 21:34:18,Ghana,33742380,GHS,Africa
+Takoradi,4.8845,-1.7554,26.2,89,0.0,6.8,Cloudy ⛅,3,2026-06-03 21:34:19,Ghana,33742380,GHS,Africa
+Cape Coast,5.1315,-1.2795,26.4,90,0.1,7.6,Rainy 🌧️,51,2026-06-03 21:34:20,Ghana,33742380,GHS,Africa
+Sunyani,7.3349,-2.3123,24.3,94,0.0,10.2,Cloudy ⛅,3,2026-06-03 21:34:21,Ghana,33742380,GHS,Africa
+Ho,6.6011,0.4717,24.1,99,0.1,5.2,Rainy 🌧️,51,2026-06-03 21:34:22,Ghana,33742380,GHS,Africa
+Koforidua,6.094,-0.2573,24.6,96,0.2,3.1,Rainy 🌧️,53,2026-06-03 21:34:22,Ghana,33742380,GHS,Africa

@@ -1,0 +1,104 @@
+{
+    "source": "Open-Meteo API",
+    "country": "Ghana",
+    "fetched_at": "2026-06-03 21:34:23",
+    "total_cities": 8,
+    "cities": [
+        {
+            "city": "Accra",
+            "latitude": 5.556,
+            "longitude": -0.1969,
+            "temperature_c": 24.6,
+            "humidity_pct": 94,
+            "precipitation_mm": 0.3,
+            "wind_speed_kmh": 5.3,
+            "weather_condition": "Rainy \ud83c\udf27\ufe0f",
+            "weather_code": 55,
+            "fetched_at": "2026-06-03 21:34:17"
+        },
+        {
+            "city": "Kumasi",
+            "latitude": 6.6885,
+            "longitude": -1.6244,
+            "temperature_c": 24.5,
+            "humidity_pct": 96,
+            "precipitation_mm": 0.0,
+            "wind_speed_kmh": 7.6,
+            "weather_condition": "Cloudy \u26c5",
+            "weather_code": 3,
+            "fetched_at": "2026-06-03 21:34:18"
+        },
+        {
+            "city": "Tamale",
+            "latitude": 9.4075,
+            "longitude": -0.8533,
+            "temperature_c": 25.8,
+            "humidity_pct": 91,
+            "precipitation_mm": 0.0,
+            "wind_speed_kmh": 13.7,
+            "weather_condition": "Cloudy \u26c5",
+            "weather_code": 3,
+            "fetched_at": "2026-06-03 21:34:18"
+        },
+        {
+            "city": "Takoradi",
+            "latitude": 4.8845,
+            "longitude": -1.7554,
+            "temperature_c": 26.2,
+            "humidity_pct": 89,
+            "precipitation_mm": 0.0,
+            "wind_speed_kmh": 6.8,
+            "weather_condition": "Cloudy \u26c5",
+            "weather_code": 3,
+            "fetched_at": "2026-06-03 21:34:19"
+        },
+        {
+            "city": "Cape Coast",
+            "latitude": 5.1315,
+            "longitude": -1.2795,
+            "temperature_c": 26.4,
+            "humidity_pct": 90,
+            "precipitation_mm": 0.1,
+            "wind_speed_kmh": 7.6,
+            "weather_condition": "Rainy \ud83c\udf27\ufe0f",
+            "weather_code": 51,
+            "fetched_at": "2026-06-03 21:34:20"
+        },
+        {
+            "city": "Sunyani",
+            "latitude": 7.3349,
+            "longitude": -2.3123,
+            "temperature_c": 24.3,
+            "humidity_pct": 94,
+            "precipitation_mm": 0.0,
+            "wind_speed_kmh": 10.2,
+            "weather_condition": "Cloudy \u26c5",
+            "weather_code": 3,
+            "fetched_at": "2026-06-03 21:34:21"
+        },
+        {
+            "city": "Ho",
+            "latitude": 6.6011,
+            "longitude": 0.4717,
+            "temperature_c": 24.1,
+            "humidity_pct": 99,
+            "precipitation_mm": 0.1,
+            "wind_speed_kmh": 5.2,
+            "weather_condition": "Rainy \ud83c\udf27\ufe0f",
+            "weather_code": 51,
+            "fetched_at": "2026-06-03 21:34:22"
+        },
+        {
+            "city": "Koforidua",
+            "latitude": 6.094,
+            "longitude": -0.2573,
+            "temperature_c": 24.6,
+            "humidity_pct": 96,
+            "precipitation_mm": 0.2,
+            "wind_speed_kmh": 3.1,
+            "weather_condition": "Rainy \ud83c\udf27\ufe0f",
+            "weather_code": 53,
+            "fetched_at": "2026-06-03 21:34:22"
+        }
+    ]
+}

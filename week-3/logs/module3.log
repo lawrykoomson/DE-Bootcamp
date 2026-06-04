@@ -1,0 +1,12 @@
+2026-06-03 21:32:11 | INFO | Calling API: https://restcountries.com/v3.1/name/ghana
+2026-06-03 21:32:18 | INFO | Response status: 200
+2026-06-03 21:32:19 | INFO | Ghana data retrieved: population=33,742,380
+2026-06-03 21:32:23 | INFO | Fetched: Ghana pop=33,742,380
+2026-06-03 21:32:24 | INFO | Fetched: Nigeria pop=223,800,000
+2026-06-03 21:32:25 | INFO | Fetched: Senegal pop=18,593,258
+2026-06-03 21:32:26 | INFO | Fetched: Ivory Coast pop=31,719,275
+2026-06-03 21:32:27 | INFO | Fetched: Cameroon pop=29,442,327
+2026-06-03 21:32:27 | INFO | Saved 5 country records to ../data/raw/west_africa_countries.json
+2026-06-03 21:32:27 | INFO | Calling World Bank API: https://api.worldbank.org/v2/country/GH/indicator/NY.GDP.MKTP.CD?format=json&mrv=5
+2026-06-03 21:32:32 | INFO | Ghana GDP data saved: 5 years
+2026-06-03 21:32:32 | INFO | Module 3 Script 1 complete

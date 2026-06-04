@@ -1,0 +1,57 @@
+{
+    "source": "REST Countries API",
+    "fetched_at": "2026-06-03 21:32:27",
+    "total_countries": 5,
+    "countries": [
+        {
+            "name": "Ghana",
+            "capital": "Accra",
+            "population": 33742380,
+            "area_km2": 238533.0,
+            "region": "Africa",
+            "subregion": "Western Africa",
+            "currency": "GHS",
+            "fetched_at": "2026-06-03 21:32:23"
+        },
+        {
+            "name": "Nigeria",
+            "capital": "Abuja",
+            "population": 223800000,
+            "area_km2": 923768.0,
+            "region": "Africa",
+            "subregion": "Western Africa",
+            "currency": "NGN",
+            "fetched_at": "2026-06-03 21:32:24"
+        },
+        {
+            "name": "Senegal",
+            "capital": "Dakar",
+            "population": 18593258,
+            "area_km2": 196722.0,
+            "region": "Africa",
+            "subregion": "Western Africa",
+            "currency": "XOF",
+            "fetched_at": "2026-06-03 21:32:25"
+        },
+        {
+            "name": "Ivory Coast",
+            "capital": "Yamoussoukro",
+            "population": 31719275,
+            "area_km2": 322463.0,
+            "region": "Africa",
+            "subregion": "Western Africa",
+            "currency": "XOF",
+            "fetched_at": "2026-06-03 21:32:26"
+        },
+        {
+            "name": "Cameroon",
+            "capital": "Yaound\u00e9",
+            "population": 29442327,
+            "area_km2": 475442.0,
+            "region": "Africa",
+            "subregion": "Middle Africa",
+            "currency": "XAF",
+            "fetched_at": "2026-06-03 21:32:27"
+        }
+    ]
+}

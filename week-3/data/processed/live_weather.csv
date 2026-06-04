@@ -1,0 +1,6 @@
+city,country,latitude,longitude,temperature_c,humidity_pct,precipitation_mm,wind_speed_kmh,weather_code,is_raining,fetched_at
+Accra,Ghana,5.556,-0.1969,24.0,96,0.2,6.0,53,True,2026-06-04 02:40:30
+Kumasi,Ghana,6.6885,-1.6244,23.1,97,0.2,3.9,53,True,2026-06-04 02:40:34
+Tamale,Ghana,9.4075,-0.8533,24.6,96,0.0,12.0,3,False,2026-06-04 02:40:37
+Cape Coast,Ghana,5.1315,-1.2795,23.2,97,1.8,8.1,81,True,2026-06-04 02:40:39
+Takoradi,Ghana,4.8845,-1.7554,24.8,95,1.1,0.9,81,True,2026-06-04 02:40:40

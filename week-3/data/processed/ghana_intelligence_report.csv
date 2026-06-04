@@ -1,0 +1,6 @@
+name,official_name,capital,population,area_km2,region,subregion,currency_code,currency_name,languages,timezones,fetched_at,gdp_year,gdp_billions,gdp_per_capita_usd,pop_density_per_km2,cities_monitored,avg_temp_c,avg_humidity_pct,cities_raining
+Ghana,Republic of Ghana,Accra,33742380,238533.0,Africa,Western Africa,GHS,Ghanaian cedi,English,UTC,2026-06-04 02:40:07,2024,82.31,2439.37,141.46,5.0,23.94,96.2,4.0
+Nigeria,Federal Republic of Nigeria,Abuja,223800000,923768.0,Africa,Western Africa,NGN,Nigerian naira,English,UTC+01:00,2026-06-04 02:40:09,2024,252.26,1127.17,242.27,,,,
+Senegal,Republic of Senegal,Dakar,18593258,196722.0,Africa,Western Africa,XOF,West African CFA franc,French,UTC,2026-06-04 02:40:10,2024,32.81,1764.62,94.52,,,,
+Ivory Coast,Republic of Côte d'Ivoire,Yamoussoukro,31719275,322463.0,Africa,Western Africa,XOF,West African CFA franc,French,UTC,2026-06-04 02:40:12,2024,87.11,2746.28,98.37,,,,
+Cameroon,Republic of Cameroon,Yaoundé,29442327,475442.0,Africa,Middle Africa,XAF,Central African CFA franc,"English, French",UTC+01:00,2026-06-04 02:40:13,2024,53.3,1810.32,61.93,,,,

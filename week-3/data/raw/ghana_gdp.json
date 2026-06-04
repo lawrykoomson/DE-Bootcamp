@@ -1,0 +1,33 @@
+{
+    "source": "World Bank API",
+    "country": "Ghana",
+    "indicator": "GDP (current USD)",
+    "fetched_at": "2026-06-03 21:32:32",
+    "data": [
+        {
+            "year": "2024",
+            "gdp_usd": 82308110386.4641,
+            "gdp_billions": 82.31
+        },
+        {
+            "year": "2023",
+            "gdp_usd": 80547146878.3843,
+            "gdp_billions": 80.55
+        },
+        {
+            "year": "2022",
+            "gdp_usd": 73919003209.9866,
+            "gdp_billions": 73.92
+        },
+        {
+            "year": "2021",
+            "gdp_usd": 79514204730.3979,
+            "gdp_billions": 79.51
+        },
+        {
+            "year": "2020",
+            "gdp_usd": 70008243859.8666,
+            "gdp_billions": 70.01
+        }
+    ]
+}

@@ -1,0 +1,51 @@
+2026-06-04 02:40:03 | INFO | ==================================================
+2026-06-04 02:40:03 | INFO |   Ghana Economic Intelligence Pipeline
+2026-06-04 02:40:03 | INFO |   Version: 1.0.0
+2026-06-04 02:40:03 | INFO |   Author:  Lawrence Koomson
+2026-06-04 02:40:03 | INFO | ==================================================
+2026-06-04 02:40:03 | INFO | ▶ Step 1: Extract
+2026-06-04 02:40:03 | INFO | Extracting data for 5 countries
+2026-06-04 02:40:03 | INFO | Fetching Country:ghana: https://restcountries.com/v3.1/name/ghana...
+2026-06-04 02:40:07 | INFO | Country:ghana — ✅ 200
+2026-06-04 02:40:07 | INFO | Fetching Country:nigeria: https://restcountries.com/v3.1/name/nigeria...
+2026-06-04 02:40:09 | INFO | Country:nigeria — ✅ 200
+2026-06-04 02:40:09 | INFO | Fetching Country:senegal: https://restcountries.com/v3.1/name/senegal...
+2026-06-04 02:40:10 | INFO | Country:senegal — ✅ 200
+2026-06-04 02:40:10 | INFO | Fetching Country:ivory coast: https://restcountries.com/v3.1/name/ivory coast...
+2026-06-04 02:40:12 | INFO | Country:ivory coast — ✅ 200
+2026-06-04 02:40:12 | INFO | Fetching Country:cameroon: https://restcountries.com/v3.1/name/cameroon...
+2026-06-04 02:40:13 | INFO | Country:cameroon — ✅ 200
+2026-06-04 02:40:13 | INFO | Extracting GDP for 5 countries
+2026-06-04 02:40:13 | INFO | Fetching GDP:Ghana: https://api.worldbank.org/v2/country/GH/indicator/NY.GDP.MKT...
+2026-06-04 02:40:16 | INFO | GDP:Ghana — ✅ 200
+2026-06-04 02:40:16 | INFO | Fetching GDP:Nigeria: https://api.worldbank.org/v2/country/NG/indicator/NY.GDP.MKT...
+2026-06-04 02:40:18 | INFO | GDP:Nigeria — ✅ 200
+2026-06-04 02:40:18 | INFO | Fetching GDP:Senegal: https://api.worldbank.org/v2/country/SN/indicator/NY.GDP.MKT...
+2026-06-04 02:40:20 | INFO | GDP:Senegal — ✅ 200
+2026-06-04 02:40:20 | INFO | Fetching GDP:Ivory Coast: https://api.worldbank.org/v2/country/CI/indicator/NY.GDP.MKT...
+2026-06-04 02:40:22 | INFO | GDP:Ivory Coast — ✅ 200
+2026-06-04 02:40:22 | INFO | Fetching GDP:Cameroon: https://api.worldbank.org/v2/country/CM/indicator/NY.GDP.MKT...
+2026-06-04 02:40:24 | INFO | GDP:Cameroon — ✅ 200
+2026-06-04 02:40:24 | INFO | Extracting weather for 5 cities
+2026-06-04 02:40:24 | INFO | Fetching Weather:Accra: https://api.open-meteo.com/v1/forecast?latitude=5.556&longit...
+2026-06-04 02:40:30 | INFO | Weather:Accra — ✅ 200
+2026-06-04 02:40:30 | INFO | Fetching Weather:Kumasi: https://api.open-meteo.com/v1/forecast?latitude=6.6885&longi...
+2026-06-04 02:40:34 | INFO | Weather:Kumasi — ✅ 200
+2026-06-04 02:40:34 | INFO | Fetching Weather:Tamale: https://api.open-meteo.com/v1/forecast?latitude=9.4075&longi...
+2026-06-04 02:40:37 | INFO | Weather:Tamale — ✅ 200
+2026-06-04 02:40:37 | INFO | Fetching Weather:Cape Coast: https://api.open-meteo.com/v1/forecast?latitude=5.1315&longi...
+2026-06-04 02:40:39 | INFO | Weather:Cape Coast — ✅ 200
+2026-06-04 02:40:39 | INFO | Fetching Weather:Takoradi: https://api.open-meteo.com/v1/forecast?latitude=4.8845&longi...
+2026-06-04 02:40:40 | INFO | Weather:Takoradi — ✅ 200
+2026-06-04 02:40:40 | INFO | ✅ Extract: 5 countries, 15 GDP records, 5 cities
+2026-06-04 02:40:40 | INFO | ▶ Step 2: Transform
+2026-06-04 02:40:40 | INFO | Transforming and merging data
+2026-06-04 02:40:41 | INFO | Merged dataset: 5 countries, 20 columns
+2026-06-04 02:40:41 | INFO | ✅ Transform complete
+2026-06-04 02:40:41 | INFO | ▶ Step 3: Build insights
+2026-06-04 02:40:41 | INFO | ✅ Insights built
+2026-06-04 02:40:41 | INFO | ▶ Step 4: Load
+2026-06-04 02:40:41 | INFO | Saving pipeline outputs
+2026-06-04 02:40:41 | INFO | All outputs saved!
+2026-06-04 02:40:41 | INFO | ✅ Load complete
+2026-06-04 02:40:41 | INFO | Pipeline SUCCESS in 38.63s

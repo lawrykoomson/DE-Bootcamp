@@ -1,0 +1,42 @@
+{
+    "pipeline_name": "Ghana Economic Intelligence Pipeline",
+    "version": "1.0.0",
+    "author": "Lawrence Koomson",
+    "run_timestamp": "2026-06-04 02:40:41",
+    "ghana_profile": {
+        "population": 33742380,
+        "capital": "Accra",
+        "currency": "GHS",
+        "gdp_billions_usd": 82.31,
+        "gdp_per_capita_usd": 2439.37,
+        "gdp_year": 2024
+    },
+    "ghana_weather": {
+        "cities_monitored": 5,
+        "avg_temperature_c": 23.9,
+        "avg_humidity_pct": 96.2,
+        "cities_raining": 4
+    },
+    "west_africa_comparison": {
+        "Ghana": {
+            "population": 33742380,
+            "gdp_billions": 82.31
+        },
+        "Nigeria": {
+            "population": 223800000,
+            "gdp_billions": 252.26
+        },
+        "Senegal": {
+            "population": 18593258,
+            "gdp_billions": 32.81
+        },
+        "Ivory Coast": {
+            "population": 31719275,
+            "gdp_billions": 87.11
+        },
+        "Cameroon": {
+            "population": 29442327,
+            "gdp_billions": 53.3
+        }
+    }
+}
