@@ -92,6 +92,46 @@ customer churn for a telecom company.
 
 ---
 
+## 🌐 Week 3 — REST APIs for Data Engineering
+
+**APIs Used:** REST Countries, Open-Meteo Weather,
+World Bank — all free, no API key required!
+
+### Scripts Completed
+
+| Script | File | What Was Built |
+|--------|------|----------------|
+| Script 1 | api_basics.py | First API calls — Countries + GDP |
+| Script 2 | weather_pipeline.py | Live weather for 8 Ghana cities |
+| Script 3 | ghana_intelligence_pipeline.py | Full ETL Capstone |
+
+### 🏆 Week 3 Capstone — Ghana Economic Intelligence Pipeline
+
+A complete pipeline combining 3 REST APIs into
+one production-ready data product.
+
+**Pipeline Results:**
+- ✅ 3 APIs called successfully
+- ✅ 5 West African countries profiled
+- ✅ 15 GDP records fetched from World Bank
+- ✅ 5 Ghana cities with live weather data
+- ⏱️ Completed in 38.63 seconds
+- 📄 5 output files generated
+
+**Live Data Discovered:**
+- Ghana GDP 2024: $82.31 Billion
+- Ghana GDP per Capita: $2,439.37
+- Nigeria largest economy: $252.3B
+- Ghana avg temperature: 23.9°C
+- 4 out of 5 cities raining at time of run!
+
+**Skills Demonstrated:**
+- requests library for HTTP calls
+- REST API consumption and JSON parsing
+- Error handling for network failures
+- Combining multiple APIs with Pandas
+- ETL pipeline with Extract → Transform → Load
+
 ## 👤 Author
 **Lawrence Koomson**
 Data Engineering Student | Accra, Ghana
