@@ -132,6 +132,49 @@ one production-ready data product.
 - Combining multiple APIs with Pandas
 - ETL pipeline with Extract → Transform → Load
 
+## 🗄️ Week 4 — SQL Foundations for Data Engineering
+
+**Database:** SQLite with Telco Customer Churn dataset
+**Tool:** Python sqlite3 + Pandas
+
+### Modules Completed
+
+| Module | File | SQL Skills |
+|--------|------|------------|
+| Module 1 | sql_basics.py | SELECT, WHERE, ORDER BY, LIMIT, LIKE |
+| Module 2 | sql_aggregations.py | GROUP BY, COUNT, SUM, AVG, HAVING |
+| Module 3 | sql_joins.py | INNER JOIN, LEFT JOIN, Multi-table |
+| Module 4 | sql_subqueries_ctes.py | Subqueries, CTEs, Risk scoring |
+| Module 5 | sql_window_functions.py | ROW_NUMBER, RANK, NTILE, SUM OVER |
+| Module 6 | sql_capstone.py | Complete SQL Analysis Pipeline |
+
+### 🏆 Week 4 Capstone — Telco SQL Analysis Pipeline
+
+A complete SQL-driven analytics pipeline using
+SQLite, Python and Pandas.
+
+**Pipeline Results:**
+- ✅ 7,043 customers analysed with pure SQL
+- 📊 26.54% overall churn rate confirmed
+- 💰 $139,130.85 monthly revenue at risk
+- 🔴 Month-to-month + Fiber optic = 54.6% churn
+- ⚠️ Month 1 churn rate = 62% — critical finding
+- 🎯 15 high-value intervention targets identified
+- 💎 Diamond tier customers have only 13.8% churn
+- 📄 9 risk segments mapped with revenue at risk
+
+**Key SQL Concepts Mastered:**
+- SELECT, WHERE, ORDER BY, LIMIT, LIKE
+- GROUP BY, COUNT, SUM, AVG, MIN, MAX, HAVING
+- INNER JOIN, LEFT JOIN, multi-table joins
+- Subqueries (scalar, WHERE, IN)
+- CTEs (WITH clause) — single and chained
+- Window functions — ROW_NUMBER, RANK,
+  DENSE_RANK, NTILE, SUM OVER, AVG OVER
+- PARTITION BY and ORDER BY in windows
+- CASE WHEN for conditional logic
+- Risk scoring models in pure SQL
+
 ## 👤 Author
 **Lawrence Koomson**
 Data Engineering Student | Accra, Ghana
