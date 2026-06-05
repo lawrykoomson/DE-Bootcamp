@@ -1,0 +1,14 @@
+2026-06-05 02:07:15 | INFO | Running executive summary
+2026-06-05 02:07:15 | INFO | Executive summary: 1 rows
+2026-06-05 02:07:15 | INFO | Building segment risk matrix
+2026-06-05 02:07:15 | INFO | Risk matrix: 9 rows
+2026-06-05 02:07:15 | INFO | Calculating CLV
+2026-06-05 02:07:15 | INFO | CLV analysis: 5 rows
+2026-06-05 02:07:15 | INFO | Identifying intervention targets
+2026-06-05 02:07:15 | INFO | Intervention targets: 15 rows
+2026-06-05 02:07:15 | INFO | Churn trend analysis
+2026-06-05 02:07:15 | INFO | Churn trend: 37 rows
+2026-06-05 02:07:15 | INFO | Generating charts
+2026-06-05 02:07:18 | INFO | Chart saved: ..\data\charts\sql_capstone_dashboard.png
+2026-06-05 02:07:18 | INFO | SQL Capstone pipeline complete
+2026-06-05 02:07:18 | INFO | Week 4 complete!

@@ -1,0 +1,11 @@
+2026-06-04 20:48:45 | INFO | Query 'Overall ranking by monthly charges': 8 rows
+2026-06-04 20:49:33 | INFO | Query 'Overall ranking by monthly charges': 8 rows
+2026-06-05 02:04:12 | INFO | Query 'Overall ranking by monthly charges': 8 rows
+2026-06-05 02:04:12 | INFO | Query 'Top 3 customers per contract type (CTE method)': 9 rows
+2026-06-05 02:04:12 | INFO | Query 'RANK vs DENSE_RANK comparison': 10 rows
+2026-06-05 02:04:12 | INFO | Query 'Running total and % of total revenue by contract': 3 rows
+2026-06-05 02:04:12 | INFO | Query 'Churned customers above their contract average': 8 rows
+2026-06-05 02:04:12 | INFO | Query 'Churn rate by monthly charge quartile': 4 rows
+2026-06-05 02:04:12 | INFO | Query 'Cumulative churn rate by tenure month': 25 rows
+2026-06-05 02:04:12 | INFO | Module 5 window functions complete
+2026-06-05 02:04:12 | INFO | Module 5 complete

@@ -1,0 +1,28 @@
+{
+    "pipeline_name": "Telco SQL Analysis Pipeline",
+    "version": "1.0.0",
+    "author": "Lawrence Koomson",
+    "run_timestamp": "2026-06-05 02:07:18",
+    "executive_summary": {
+        "total_customers": 7043,
+        "churn_rate_pct": 26.54,
+        "total_monthly_revenue": 456116.6,
+        "revenue_at_risk": 139130.85,
+        "avg_tenure_months": 32.4
+    },
+    "top_risk_segment": {
+        "contract": "Month-to-month",
+        "internet": "Fiber optic",
+        "churn_rate": 54.6,
+        "revenue_at_risk": 100482.0
+    },
+    "intervention_targets": 15,
+    "sql_modules_completed": [
+        "Module 1: SELECT WHERE ORDER BY LIMIT",
+        "Module 2: GROUP BY COUNT SUM AVG HAVING",
+        "Module 3: INNER LEFT MULTI-TABLE JOINS",
+        "Module 4: SUBQUERIES CTEs RISK SCORING",
+        "Module 5: WINDOW FUNCTIONS RANKING",
+        "Module 6: CAPSTONE FULL SQL PIPELINE"
+    ]
+}
