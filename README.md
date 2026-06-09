@@ -175,6 +175,40 @@ SQLite, Python and Pandas.
 - CASE WHEN for conditional logic
 - Risk scoring models in pure SQL
 
+## 🗄️ Week 5 — SQL for Data Engineering
+
+### Modules Completed
+
+| Module | File | Skills |
+|--------|------|--------|
+| Module 1 | sql_advanced_patterns.py | UNION, PIVOT, COALESCE, String functions |
+| Module 2 | data_modelling.py | Star Schema — FACT + DIM tables |
+| Module 3 | sql_etl.py | INSERT, UPDATE, DELETE, UPSERT, Transactions |
+| Module 4 | sql_views.py | 5 Production Views + Stored Procedures |
+| Module 5 | sql_optimisation.py | Indexes, EXPLAIN, Benchmarking |
+| Module 6 | sql_de_capstone.py | Complete SQL DE Pipeline |
+
+### 🏆 Week 5 Capstone — SQL Data Engineering Pipeline v2
+
+**Pipeline Results:**
+- ✅ 17 database objects — tables + views
+- ✅ 6 data quality checks — all passed
+- ⏱️ 2.46 seconds end-to-end
+- 🎯 5,174 customers targeted for retention
+- 💰 $3.8M annual revenue protected
+- 🔴 924 customers need immediate call
+- 📄 5 output files generated
+
+**SQL DE Skills Mastered:**
+- Advanced CASE WHEN and PIVOT patterns
+- Star Schema — FACT and DIM table design
+- Staging → Validate → Insert pipeline
+- INSERT, UPDATE, DELETE, UPSERT
+- COMMIT and ROLLBACK transactions
+- CREATE VIEW — 5 production views
+- EXPLAIN QUERY PLAN analysis
+- CREATE INDEX — 5 indexes with benchmarking
+
 ## 👤 Author
 **Lawrence Koomson**
 Data Engineering Student | Accra, Ghana
