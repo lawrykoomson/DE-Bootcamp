@@ -1,0 +1,5 @@
+action,customers,monthly_at_risk,annual_at_risk,avg_monthly,avg_risk
+🔴 Immediate call,924,49686.8,596241.6,53.77,8.4
+🟡 Email campaign,852,51203.75,614445.0,60.1,6.4
+🟠 Auto-pay offer,1011,61911.9,742942.8,61.24,4.4
+🟢 Standard programme,2387,154183.3,1850199.6,64.59,1.2

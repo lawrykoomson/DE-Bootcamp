@@ -1,0 +1,29 @@
+{
+    "pipeline_name": "Telco SQL DE Pipeline v2",
+    "version": "2.0.0",
+    "author": "Lawrence Koomson",
+    "run_timestamp": "2026-06-09 08:48:55",
+    "duration_seconds": 2.46,
+    "data_quality": "ALL PASSED",
+    "executive_summary": {
+        "total_customers": 7043,
+        "churn_rate_pct": 26.54,
+        "monthly_revenue": 456116.6,
+        "revenue_at_risk": 139130.85
+    },
+    "interventions": {
+        "immediate_call": 924,
+        "email_campaign": 852,
+        "autopay_offer": 1011
+    },
+    "sql_skills_used": [
+        "Advanced CASE WHEN and PIVOT",
+        "Star Schema \u2014 FACT and DIM tables",
+        "INSERT UPDATE DELETE UPSERT",
+        "CREATE VIEW \u2014 5 production views",
+        "EXPLAIN QUERY PLAN",
+        "CREATE INDEX \u2014 5 indexes",
+        "Benchmarking before and after",
+        "Transaction COMMIT and ROLLBACK"
+    ]
+}

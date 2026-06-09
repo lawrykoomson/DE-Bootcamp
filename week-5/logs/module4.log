@@ -1,0 +1,29 @@
+2026-06-08 11:54:10 | INFO | Creating database views
+2026-06-08 11:54:10 | INFO | All 5 views created
+2026-06-08 11:54:10 | INFO | 'Executive KPIs from view': 1 rows
+2026-06-08 11:54:10 | INFO | 'Top 5 high churn segments from view': 5 rows
+2026-06-08 11:54:10 | INFO | 'Intervention actions from view': 4 rows
+2026-06-08 11:54:10 | INFO | 'High-value critical risk customers': 8 rows
+2026-06-08 11:54:10 | INFO | 'High risk segments from revenue view': 3 rows
+2026-06-08 11:54:10 | INFO | Testing Python stored procedures
+2026-06-08 11:56:09 | INFO | Creating database views
+2026-06-08 11:56:10 | INFO | All 5 views created
+2026-06-08 11:56:10 | INFO | 'Executive KPIs from view': 1 rows
+2026-06-08 11:56:10 | INFO | 'Top 5 high churn segments from view': 5 rows
+2026-06-08 11:56:10 | INFO | 'Intervention actions from view': 4 rows
+2026-06-08 11:56:10 | INFO | 'High-value critical risk customers': 8 rows
+2026-06-08 11:56:10 | INFO | 'High risk segments from revenue view': 3 rows
+2026-06-08 11:56:10 | INFO | Testing Python stored procedures
+2026-06-08 17:23:05 | INFO | Creating database views
+2026-06-08 17:23:05 | INFO | All 5 views created
+2026-06-08 17:23:05 | INFO | 'Executive KPIs from view': 1 rows
+2026-06-08 17:23:05 | INFO | 'Top 5 high churn segments from view': 5 rows
+2026-06-08 17:23:05 | INFO | 'Intervention actions from view': 4 rows
+2026-06-08 17:23:05 | INFO | 'High-value critical risk customers': 8 rows
+2026-06-08 17:23:05 | INFO | 'High risk segments from revenue view': 3 rows
+2026-06-08 17:23:05 | INFO | Testing Python stored procedures
+2026-06-08 17:23:05 | INFO | Risk report: 10 customers
+2026-06-08 17:23:05 | INFO | Segment performance: 3 segments
+2026-06-08 17:23:05 | INFO | 'All views in telco_w5.db': 5 rows
+2026-06-08 17:23:05 | INFO | Module 4 views complete
+2026-06-08 17:23:05 | INFO | Module 4 complete

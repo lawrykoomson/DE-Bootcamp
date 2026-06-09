@@ -1,0 +1,18 @@
+2026-06-09 08:48:52 | INFO | ========================================
+2026-06-09 08:48:52 | INFO | PIPELINE STARTED: Telco SQL DE Pipeline v2
+2026-06-09 08:48:52 | INFO | ========================================
+2026-06-09 08:48:52 | INFO | Stage 1: Building data warehouse
+2026-06-09 08:48:52 | INFO | Stage 2: Running data quality checks
+2026-06-09 08:48:53 | INFO | Quality checks: PASSED
+2026-06-09 08:48:53 | INFO | Stage 3: Running advanced analytics
+2026-06-09 08:48:53 | INFO | Executive KPIs: 1 rows
+2026-06-09 08:48:53 | INFO | Lifecycle analysis: 5 rows
+2026-06-09 08:48:53 | INFO | Risk matrix: 6 rows
+2026-06-09 08:48:53 | INFO | Stage 4: Identifying interventions
+2026-06-09 08:48:53 | INFO | Intervention summary: 4 rows
+2026-06-09 08:48:53 | INFO | Top priority customers: 10 rows
+2026-06-09 08:48:53 | INFO | Stage 5: Generating charts
+2026-06-09 08:48:55 | INFO | Chart saved: ..\data\charts\week5_capstone.png
+2026-06-09 08:48:55 | INFO | Stage 6: Saving outputs
+2026-06-09 08:48:55 | INFO | Pipeline complete in 2.46s
+2026-06-09 08:48:55 | INFO | Week 5 complete!

@@ -1,0 +1,16 @@
+2026-06-07 22:11:32 | INFO | Creating staging tables
+2026-06-07 22:11:32 | INFO | Inserting new customer records
+2026-06-07 22:11:32 | INFO | 'Staged new customers': 5 rows
+2026-06-07 22:11:32 | INFO | Validating staged data
+2026-06-07 22:11:32 | INFO | 'Validation results for staged data': 1 rows
+2026-06-07 22:11:32 | INFO | Moving valid records to main table
+2026-06-07 22:11:32 | INFO | Inserted 5 records from staging
+2026-06-07 22:11:32 | INFO | Testing UPDATE operations
+2026-06-07 22:11:32 | INFO | 'New customers before update': 5 rows
+2026-06-07 22:11:32 | INFO | 'New customers after tenure update': 5 rows
+2026-06-07 22:11:32 | INFO | Testing UPSERT pattern
+2026-06-07 22:11:32 | INFO | 'Top risk customers after UPSERT': 8 rows
+2026-06-07 22:11:32 | INFO | Testing DELETE operations
+2026-06-07 22:11:33 | INFO | Deleted 5 test records
+2026-06-07 22:11:33 | INFO | Module 3 ETL complete
+2026-06-07 22:11:33 | INFO | Module 3 complete
