@@ -13,9 +13,9 @@ Pandas, BigQuery, SQL, AWS, Azure and Apache Spark.
 | Week 0 | Linux & Bash | ✅ Complete |
 | Week 1 | Python for Data Engineering | ✅ Complete |
 | Week 2 | Pandas for Data Engineering | ✅ Complete |
-| Week 3 | BigQuery + REST APIs | 🔄 Up Next |
-| Weeks 4-5 | SQL Foundations | ⏳ Coming |
-| Weeks 6-10 | AWS Cloud | ⏳ Coming |
+| Week 3 | REST APIs for Data Engineering | ✅ Complete |
+| Weeks 4-5 | SQL Foundations & SQL for DE | ✅ Complete |
+| Weeks 6-10 | AWS Cloud | 🔄 Up Next |
 | Weeks 8-12 | Azure Cloud | ⏳ Coming |
 | Weeks 10-14 | Apache Spark | ⏳ Coming |
 | Final | Capstone Project | ⏳ Coming |
