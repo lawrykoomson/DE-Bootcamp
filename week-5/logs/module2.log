@@ -1,9 +1,0 @@
-2026-06-06 18:39:26 | INFO | Creating dimension tables
-2026-06-06 18:39:27 | INFO | All dimension tables created
-2026-06-06 18:39:27 | INFO | Creating fact table
-2026-06-06 18:39:27 | INFO | fact_subscription: 7,043 rows
-2026-06-06 18:39:27 | INFO | 'Star schema — churn by plan': 6 rows
-2026-06-06 18:39:27 | INFO | 'Star schema — churn by payment type': 3 rows
-2026-06-06 18:39:27 | INFO | 'Star schema — churn by customer segment': 8 rows
-2026-06-06 18:39:27 | INFO | Module 2 data modelling complete
-2026-06-06 18:39:27 | INFO | Module 2 complete

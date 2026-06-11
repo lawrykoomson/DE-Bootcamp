@@ -1,0 +1,26 @@
+# AWS Credentials — NEVER commit these
+.aws/
+*.pem
+*credentials*
+*secret*
+*access_key*
+
+# Environment files
+.env
+.env.*
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Large data files
+*.db
+*.sqlite
+
+# Log files
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db

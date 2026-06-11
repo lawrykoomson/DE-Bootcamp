@@ -1,9 +1,0 @@
-2026-06-08 22:58:30 | INFO | Checking existing indexes
-2026-06-08 22:58:30 | INFO | 'Existing indexes on customers table': 0 rows
-2026-06-08 22:58:30 | INFO | Benchmarking without indexes
-2026-06-08 22:58:31 | INFO | Creating indexes
-2026-06-08 22:58:32 | INFO | Created 5 indexes
-2026-06-08 22:58:32 | INFO | Benchmarking with indexes
-2026-06-08 22:58:33 | INFO | 'All indexes on customers table': 5 rows
-2026-06-08 22:58:33 | INFO | Module 5 optimisation complete
-2026-06-08 22:58:33 | INFO | Module 5 complete
