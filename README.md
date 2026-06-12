@@ -19,7 +19,8 @@ Pandas, BigQuery, SQL, AWS, Azure and Apache Spark.
 | Weeks 7-10 | AWS Advanced | ⏳ Coming |
 | Weeks 8-12 | Azure Cloud | ⏳ Coming |
 | Weeks 10-14 | Apache Spark | ⏳ Coming |
-| Final | Capstone Project | ⏳ Coming |
+| Final | Capstone Project | ⏳ Coming
+| Week 7 | AWS Advanced — Lambda, Glue, Step Functions | ✅ Complete | |
 
 ---
 
@@ -209,6 +210,38 @@ SQLite, Python and Pandas.
 - CREATE VIEW — 5 production views
 - EXPLAIN QUERY PLAN analysis
 - CREATE INDEX — 5 indexes with benchmarking
+
+## ⚡ Week 7 — AWS Advanced Data Engineering
+
+### Modules Completed
+
+| Module | File | AWS Service |
+|--------|------|-------------|
+| Module 1 | lambda_basics.py | AWS Lambda — Serverless functions |
+| Module 2 | glue_jobs.py | AWS Glue — Managed ETL jobs |
+| Module 3 | event_driven_pipeline.py | S3 Events + Lambda triggers |
+| Module 4 | step_functions.py | AWS Step Functions — Orchestration |
+| Capstone | aws_advanced_capstone.py | Full serverless DE pipeline |
+
+### 🏆 Week 7 Capstone — AWS Advanced DE Pipeline
+
+**Pipeline Results:**
+- ✅ 6 out of 6 stages completed
+- ⏱️ 73.39 seconds end-to-end
+- ☁️ 89 objects in AWS S3 data lake
+- ⚡ 7 Lambda functions deployed
+- 🔧 1 Glue ETL job — 7,053 records in 24s
+- 🔄 Step Functions pipeline — SUCCEEDED
+- 🎯 Event-driven trigger — AUTO-TRIGGERED!
+- 🔍 Athena SQL — $139,130.85 at risk
+
+**AWS Services Used:**
+- S3 — Data lake storage
+- Lambda — Serverless Python functions
+- Glue — Managed ETL service
+- Athena — Serverless SQL on S3
+- Step Functions — Pipeline orchestration
+- IAM — Security and access management
 
 ## 👤 Author
 **Lawrence Koomson**
