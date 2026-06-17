@@ -24,3 +24,13 @@ __pycache__/
 # OS files
 .DS_Store
 Thumbs.db
+
+# Spark output folders (checksums, success markers, multi-part CSVs)
+*.crc
+_SUCCESS
+week-9/data/sample_output/
+week-9/data/risk_analysis/
+week-9/data/partitioned_output/
+week-9/data/spark_enriched_output/
+week-9/data/spark_sql_report/
+week-9/data/top_priority_customers/
