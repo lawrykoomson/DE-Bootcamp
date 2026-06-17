@@ -18,6 +18,7 @@ Pandas, BigQuery, SQL, AWS, Azure and Apache Spark.
 | Week 6 | AWS Cloud for Data Engineering | ✅ Complete |
 | Week 7 | AWS Advanced — Lambda, Glue, Step Functions | ✅ Complete | 
 | Week 8 | Azure Cloud for Data Engineering | ⏸️ Paused — Account setup pending |
+| Week 9 | Apache Spark for Data Engineering | ✅ Complete |
 | Weeks 10-14 | Apache Spark | ⏳ Coming |
 | Final | Capstone Project | ⏳ Coming|
 
@@ -241,6 +242,43 @@ SQLite, Python and Pandas.
 - Athena — Serverless SQL on S3
 - Step Functions — Pipeline orchestration
 - IAM — Security and access management
+
+## ⚡ Week 9 — Apache Spark for Data Engineering
+
+### Modules Completed
+
+| Module | File | Skills |
+|--------|------|--------|
+| Module 1 | spark_basics.py | SparkSession, DataFrames, RDDs, lazy evaluation |
+| Module 2 | spark_dataframe_ops.py | Joins, window functions, when/otherwise logic |
+| Module 3 | spark_sql.py | spark.sql(), CTEs, subqueries, reusable views |
+| Module 4 | spark_performance.py | Caching, broadcast joins, explain plans |
+| Capstone | spark_de_capstone.py | Complete distributed DE pipeline |
+
+### 🏆 Week 9 Capstone — Spark Telco DE Pipeline
+
+**Pipeline Results:**
+- ✅ 5 out of 5 stages completed
+- ⏱️ 40.28 seconds end-to-end
+- 🔧 7,043 records processed with 8 CPU cores
+- ✅ 5 data quality checks — all passed
+- 📊 2,490 customers flagged Critical risk
+- 💰 $139,130.85 monthly revenue at risk
+- 🚀 1.7x speedup demonstrated with caching
+
+**Spark Skills Mastered:**
+- SparkSession, DataFrames and RDDs
+- Joins, window functions (RANK, PARTITION BY)
+- Spark SQL — CTEs, subqueries, temp views
+- Performance tuning — caching, broadcast joins, repartitioning
+- Explain plans and column pruning
+- Partitioned writes for optimized storage
+
+**Environment Setup Highlights:**
+Configured a full local Spark cluster on Windows from
+scratch — Java 17, Hadoop winutils, Python version
+alignment, and JVM/Python worker debugging. Real
+production-style troubleshooting experience.
 
 ## 👤 Author
 **Lawrence Koomson**
