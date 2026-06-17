@@ -1,0 +1,3 @@
+customerID,gender,Contract,MonthlyCharges,Churn,AnnualCharges
+7795-CFOCW,Male,One year,42.3,0,507.6
+9237-HQITU,Female,Month-to-month,70.7,1,848.4

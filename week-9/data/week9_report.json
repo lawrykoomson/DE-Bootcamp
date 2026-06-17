@@ -1,0 +1,25 @@
+{
+    "pipeline_name": "Spark Telco DE Pipeline",
+    "version": "1.0.0",
+    "author": "Lawrence Koomson",
+    "run_timestamp": "2026-06-17 19:33:58",
+    "duration_seconds": 40.28,
+    "spark_version": "4.1.2",
+    "cores_used": 8,
+    "data_quality": "ALL PASSED",
+    "executive_summary": {
+        "total_customers": 7043,
+        "churn_rate_pct": 26.54,
+        "monthly_revenue": 456116.6,
+        "revenue_at_risk": 139130.85
+    },
+    "stages_completed": 5,
+    "spark_skills_used": [
+        "SparkSession & DataFrames",
+        "Joins & Window Functions",
+        "Spark SQL & CTEs",
+        "Caching & Broadcast Joins",
+        "Partitioning & Optimization",
+        "Explain Plans"
+    ]
+}
