@@ -1,0 +1,26 @@
+{
+    "pipeline_name": "BigQuery + REST API Pipeline",
+    "author": "Lawrence Koomson",
+    "run_timestamp": "2026-06-19 12:36:50",
+    "duration_seconds": 82.47,
+    "sources": {
+        "bigquery_rows": 3,
+        "countries_fetched": 0,
+        "weather_city": "Accra"
+    },
+    "bigquery": {
+        "project": "de-bootcamp-sandbox",
+        "dataset": "telco_de_bootcamp",
+        "tables_used": [
+            "telco_customers",
+            "contract_lookup",
+            "pipeline_results"
+        ]
+    },
+    "key_findings": {
+        "highest_churn_service": "Fiber optic",
+        "highest_churn_rate": 41.89,
+        "total_annual_revenue": 5473399.2,
+        "immediate_intervention": 3096
+    }
+}

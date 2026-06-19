@@ -1,0 +1,4 @@
+service_type,customers,churned,churn_rate_pct,total_revenue,avg_monthly,avg_tenure_months,pipeline_run,run_by,data_source,annual_revenue_projection,intervention_priority
+Fiber optic,3096,1297,41.89,283284.4,91.5,32.9,2026-06-19 12:36:39,Lawrence Koomson,BigQuery + REST APIs,3399412.8,Immediate
+DSL,2421,459,18.96,140665.35,58.1,32.8,2026-06-19 12:36:39,Lawrence Koomson,BigQuery + REST APIs,1687984.2,Standard
+No,1526,113,7.4,32166.85,21.08,30.5,2026-06-19 12:36:39,Lawrence Koomson,BigQuery + REST APIs,386002.2,Standard

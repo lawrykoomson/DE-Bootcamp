@@ -1,0 +1,4 @@
+Contract,PlanType,DiscountPct,ChurnRisk,customers,churned,churn_rate_pct,total_revenue
+Month-to-month,Flexible,0,High,3875,1655,42.7,257294.15
+One year,Annual,10,Medium,1473,166,11.3,95816.6
+Two year,Biennial,20,Low,1695,48,2.8,103005.85
