@@ -13,7 +13,7 @@ Pandas, BigQuery, SQL, AWS, Azure and Apache Spark.
 | Week 0 | Linux & Bash | ✅ Complete |
 | Week 1 | Python for Data Engineering | ✅ Complete |
 | Week 2 | Pandas for Data Engineering | ✅ Complete |
-| Week 3 | REST APIs for Data Engineering | ✅ Complete |
+| Week 3 | REST APIs + BigQuery | ✅ Complete |
 | Weeks 4-5 | SQL Foundations & SQL for DE | ✅ Complete |
 | Week 6 | AWS Cloud for Data Engineering | ✅ Complete |
 | Week 7 | AWS Advanced — Lambda, Glue, Step Functions | ✅ Complete | 
@@ -279,6 +279,37 @@ Configured a full local Spark cluster on Windows from
 scratch — Java 17, Hadoop winutils, Python version
 alignment, and JVM/Python worker debugging. Real
 production-style troubleshooting experience.
+
+## 🔍 Week 3 — REST APIs + BigQuery
+
+### Modules Completed
+
+| Module | File | Skills |
+|--------|------|--------|
+| Module 1 | bq_basics.py | Connect to BQ, public datasets, create dataset |
+| Module 2 | bq_python_client.py | Load CSV, autodetect schema, query, export |
+| Module 3 | bq_advanced_queries.py | Parameterised queries, JOINs, CTEs, window functions |
+| Capstone | bq_api_capstone.py | BigQuery + REST API merged pipeline |
+
+### 🏆 Week 3 Capstone — BigQuery + REST API Pipeline
+
+**Pipeline Results:**
+- ✅ 5 pipeline stages completed
+- ⏱️ 82.47 seconds end-to-end
+- 📊 7,043 rows loaded into BigQuery Sandbox
+- 🔍 3 tables created in telco_de_bootcamp dataset
+- 🌍 REST Countries + Open-Meteo APIs integrated
+- 💰 Fiber optic service: 41.89% churn rate
+- 💸 Annual revenue at risk: $5,473,399.20
+
+**BigQuery Skills Mastered:**
+- BigQuery Sandbox — no credit card needed
+- autodetect schema for CSV loading
+- Parameterised queries (@parameter syntax)
+- BigQuery JOINs across multiple tables
+- CTEs, window functions, COUNTIF, STDDEV
+- load_table_from_dataframe() — Pandas to BQ
+- job.to_dataframe() — BQ results to Pandas
 
 ## 👤 Author
 **Lawrence Koomson**
