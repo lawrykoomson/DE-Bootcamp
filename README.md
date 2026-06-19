@@ -1,8 +1,8 @@
-# 🛠️ Data Engineering Bootcamp
-## GetSkills Network & Thrive Africa
-
-A hands-on Data Engineering bootcamp covering Python,
-Pandas, BigQuery, SQL, AWS, Azure and Apache Spark.
+# 🚀 Data Engineering Bootcamp
+**GetSkills Network & Thrive Africa**
+**Student: Lawrence Koomson**
+**GitHub: [lawrykoomson](https://github.com/lawrykoomson)**
+**LinkedIn: [lawrence-koomson-689774266](https://linkedin.com/in/lawrence-koomson-689774266)**
 
 ---
 
@@ -10,17 +10,16 @@ Pandas, BigQuery, SQL, AWS, Azure and Apache Spark.
 
 | Week | Topic | Status |
 |------|-------|--------|
-| Week 0 | Linux & Bash | ✅ Complete |
+| Week 0 | Linux & Bash | ⏳ Pending |
 | Week 1 | Python for Data Engineering | ✅ Complete |
 | Week 2 | Pandas for Data Engineering | ✅ Complete |
-| Week 3 | REST APIs + BigQuery | ✅ Complete |
+| Week 3 | REST APIs + BigQuery for DE | ✅ Complete |
 | Weeks 4-5 | SQL Foundations & SQL for DE | ✅ Complete |
 | Week 6 | AWS Cloud for Data Engineering | ✅ Complete |
-| Week 7 | AWS Advanced — Lambda, Glue, Step Functions | ✅ Complete | 
+| Week 7 | AWS Advanced — Lambda, Glue, Step Functions | ✅ Complete |
 | Week 8 | Azure Cloud for Data Engineering | ⏸️ Paused — Account setup pending |
 | Week 9 | Apache Spark for Data Engineering | ✅ Complete |
-| Weeks 10-14 | Apache Spark | ⏳ Coming |
-| Final | Capstone Project | ⏳ Coming|
+| Final | Capstone Project | ⏳ Coming |
 
 ---
 
@@ -28,165 +27,99 @@ Pandas, BigQuery, SQL, AWS, Azure and Apache Spark.
 
 ### Modules Completed
 
-| Module | File | What Was Built |
-|--------|------|----------------|
-| Module 1 | hello_de.py | First DE script — pipeline metadata |
-| Module 2 | data_types.py | All 7 Python data types for DE |
-| Module 3 | control_flow.py | if/else, loops, functions, validation |
-| Module 4 | file_io.py | CSV and JSON read/write pipeline |
-| Module 5 | error_handling.py | try/except, logging, custom errors |
-| Module 6 | ghana_hr_pipeline.py | Complete ETL pipeline — Capstone |
+| Module | File | Skills |
+|--------|------|--------|
+| Module 1 | hello_de.py | Python basics, print, variables |
+| Module 2 | data_types.py | Strings, integers, lists, dicts |
+| Module 3 | control_flow.py | If/else, loops, functions |
+| Module 4 | file_io.py | Read/write CSV and JSON files |
+| Module 5 | error_handling.py | Try/except, logging |
+| Module 6 | ghana_hr_pipeline.py | Complete HR data pipeline |
 
-### 🏆 Week 1 Capstone — Ghana HR Data Pipeline
-- ✅ 10 records ingested
-- ✅ 7 valid records processed
-- ❌ 3 records correctly rejected
-- ⏱️ Completed in 0.02 seconds
-- 📄 4 output files generated
+### 🏆 Week 1 Capstone — Ghana HR Pipeline
+
+**Pipeline Results:**
+- ✅ 10 records processed
+- ✅ 7 valid, 3 rejected
+- ⏱️ 0.02 seconds runtime
 
 ---
 
 ## 🐼 Week 2 — Pandas for Data Engineering
 
-**Dataset:** Telco Customer Churn
-(7,043 customers, 21 columns, real Kaggle data)
-
 ### Modules Completed
 
-| Module | File | What Was Built |
-|--------|------|----------------|
-| Module 1 | explore.py | Dataset profiling — shape, dtypes, nulls |
-| Module 2 | clean.py | TotalCharges fix, type casting, feature engineering |
-| Module 3 | analyse.py | Filtering, groupby, churn analysis |
-| Module 4 | merge.py | Joins, concat, enriched datasets |
-| Module 5 | visualise.py | 6-chart dashboard + correlation heatmap |
-| Module 6 | telco_pipeline.py | Complete ETL + Analysis Capstone |
+| Module | File | Skills |
+|--------|------|--------|
+| Module 1 | explore.py | DataFrame exploration |
+| Module 2 | clean.py | Data cleaning, TotalCharges fix |
+| Module 3 | analyse.py | Aggregations, groupby |
+| Module 4 | merge.py | Joining DataFrames |
+| Module 5 | visualise.py | Matplotlib charts |
+| Module 6 | telco_pipeline.py | Complete Telco pipeline |
 
-### 🏆 Week 2 Capstone — Telco Churn Analysis Pipeline
-
-A complete production-ready pipeline analysing
-customer churn for a telecom company.
+### 🏆 Week 2 Capstone — Telco Churn Pipeline
 
 **Pipeline Results:**
-- ✅ 7,043 customers processed in 3.55 seconds
-- 📊 26.54% overall churn rate identified
-- 💰 $139,130.85 monthly revenue at risk
-- 🔴 Month-to-month = 42.7% churn (highest risk)
-- 🟢 Two year contract = 2.8% churn (safest)
-- 🔴 New customers (0-12 months) = 47.4% churn
-- 🔴 Fiber optic = 41.9% churn rate
-- 📄 4 output files generated automatically
-
-**Key Recommendations:**
-1. Convert month-to-month to longer contracts
-2. Fix first 12 months customer experience
-3. Investigate Fiber optic service quality
-4. Offer auto-pay incentives
-5. Target senior citizens with dedicated support
-
-**Skills Demonstrated:**
-- Pandas DataFrames and Series
-- Data cleaning and type casting
-- Filtering and aggregation with groupby
-- Merging and joining multiple DataFrames
-- Matplotlib and Seaborn visualisations
-- Complete ETL pipeline design
+- ✅ 7,043 rows processed
+- ✅ 26.54% churn rate identified
+- ✅ $139,130.85/month revenue at risk
+- ⏱️ 3.55 seconds runtime
 
 ---
 
-## 🌐 Week 3 — REST APIs for Data Engineering
-
-**APIs Used:** REST Countries, Open-Meteo Weather,
-World Bank — all free, no API key required!
-
-### Scripts Completed
-
-| Script | File | What Was Built |
-|--------|------|----------------|
-| Script 1 | api_basics.py | First API calls — Countries + GDP |
-| Script 2 | weather_pipeline.py | Live weather for 8 Ghana cities |
-| Script 3 | ghana_intelligence_pipeline.py | Full ETL Capstone |
-
-### 🏆 Week 3 Capstone — Ghana Economic Intelligence Pipeline
-
-A complete pipeline combining 3 REST APIs into
-one production-ready data product.
-
-**Pipeline Results:**
-- ✅ 3 APIs called successfully
-- ✅ 5 West African countries profiled
-- ✅ 15 GDP records fetched from World Bank
-- ✅ 5 Ghana cities with live weather data
-- ⏱️ Completed in 38.63 seconds
-- 📄 5 output files generated
-
-**Live Data Discovered:**
-- Ghana GDP 2024: $82.31 Billion
-- Ghana GDP per Capita: $2,439.37
-- Nigeria largest economy: $252.3B
-- Ghana avg temperature: 23.9°C
-- 4 out of 5 cities raining at time of run!
-
-**Skills Demonstrated:**
-- requests library for HTTP calls
-- REST API consumption and JSON parsing
-- Error handling for network failures
-- Combining multiple APIs with Pandas
-- ETL pipeline with Extract → Transform → Load
-
-## 🗄️ Week 4 — SQL Foundations for Data Engineering
-
-**Database:** SQLite with Telco Customer Churn dataset
-**Tool:** Python sqlite3 + Pandas
-
-### Modules Completed
-
-| Module | File | SQL Skills |
-|--------|------|------------|
-| Module 1 | sql_basics.py | SELECT, WHERE, ORDER BY, LIMIT, LIKE |
-| Module 2 | sql_aggregations.py | GROUP BY, COUNT, SUM, AVG, HAVING |
-| Module 3 | sql_joins.py | INNER JOIN, LEFT JOIN, Multi-table |
-| Module 4 | sql_subqueries_ctes.py | Subqueries, CTEs, Risk scoring |
-| Module 5 | sql_window_functions.py | ROW_NUMBER, RANK, NTILE, SUM OVER |
-| Module 6 | sql_capstone.py | Complete SQL Analysis Pipeline |
-
-### 🏆 Week 4 Capstone — Telco SQL Analysis Pipeline
-
-A complete SQL-driven analytics pipeline using
-SQLite, Python and Pandas.
-
-**Pipeline Results:**
-- ✅ 7,043 customers analysed with pure SQL
-- 📊 26.54% overall churn rate confirmed
-- 💰 $139,130.85 monthly revenue at risk
-- 🔴 Month-to-month + Fiber optic = 54.6% churn
-- ⚠️ Month 1 churn rate = 62% — critical finding
-- 🎯 15 high-value intervention targets identified
-- 💎 Diamond tier customers have only 13.8% churn
-- 📄 9 risk segments mapped with revenue at risk
-
-**Key SQL Concepts Mastered:**
-- SELECT, WHERE, ORDER BY, LIMIT, LIKE
-- GROUP BY, COUNT, SUM, AVG, MIN, MAX, HAVING
-- INNER JOIN, LEFT JOIN, multi-table joins
-- Subqueries (scalar, WHERE, IN)
-- CTEs (WITH clause) — single and chained
-- Window functions — ROW_NUMBER, RANK,
-  DENSE_RANK, NTILE, SUM OVER, AVG OVER
-- PARTITION BY and ORDER BY in windows
-- CASE WHEN for conditional logic
-- Risk scoring models in pure SQL
-
-## 🗄️ Week 5 — SQL for Data Engineering
+## 🌐 Week 3 — REST APIs + BigQuery for DE
 
 ### Modules Completed
 
 | Module | File | Skills |
 |--------|------|--------|
-| Module 1 | sql_advanced_patterns.py | UNION, PIVOT, COALESCE, String functions |
+| Module 1 | api_basics.py | requests, REST APIs, JSON parsing |
+| Module 2 | weather_pipeline.py | Open-Meteo API, 5 cities |
+| Module 3 | ghana_intelligence_pipeline.py | REST Countries + World Bank APIs |
+| BQ Module 1 | bq_basics.py | Connect to BQ, public datasets |
+| BQ Module 2 | bq_python_client.py | Load CSV, autodetect schema, query |
+| BQ Module 3 | bq_advanced_queries.py | Parameterised, JOINs, CTEs, RANK |
+| BQ Capstone | bq_api_capstone.py | BigQuery + REST API pipeline |
+
+### 🏆 Week 3 Capstone — BigQuery + REST API Pipeline
+
+**Pipeline Results:**
+- ✅ 5 pipeline stages completed
+- ⏱️ 82.47 seconds end-to-end
+- 📊 7,043 rows loaded into BigQuery Sandbox
+- 🔍 3 tables in telco_de_bootcamp dataset
+- 🌍 REST Countries + Open-Meteo APIs integrated
+- 💰 Fiber optic: 41.89% churn rate
+- 💸 Annual revenue at risk: $5,473,399.20
+
+**BigQuery Skills Mastered:**
+- BigQuery Sandbox — no credit card needed
+- autodetect schema for CSV loading
+- Parameterised queries with @parameter syntax
+- BigQuery JOINs across multiple tables
+- CTEs, window functions, COUNTIF, STDDEV
+- load_table_from_dataframe() — Pandas to BQ
+- job.to_dataframe() — BQ results to Pandas
+
+---
+
+## 🗄️ Weeks 4-5 — SQL Foundations & SQL for DE
+
+### Modules Completed
+
+| Module | File | Skills |
+|--------|------|--------|
+| Module 1 | sql_basics.py | SELECT, WHERE, ORDER BY, LIMIT |
+| Module 2 | sql_aggregations.py | GROUP BY, HAVING, COUNT, SUM, AVG |
+| Module 3 | sql_joins.py | INNER, LEFT, RIGHT, FULL joins |
+| Module 4 | sql_subqueries_ctes.py | Subqueries, CTEs, nested SELECT |
+| Module 5 | sql_window_functions.py | RANK, DENSE_RANK, PARTITION BY |
+| Module 6 | sql_capstone.py | Week 4 pipeline |
+| Module 1 | sql_advanced_patterns.py | UNION, PIVOT, COALESCE |
 | Module 2 | data_modelling.py | Star Schema — FACT + DIM tables |
-| Module 3 | sql_etl.py | INSERT, UPDATE, DELETE, UPSERT, Transactions |
-| Module 4 | sql_views.py | 5 Production Views + Stored Procedures |
+| Module 3 | sql_etl.py | INSERT, UPDATE, DELETE, UPSERT |
+| Module 4 | sql_views.py | 5 Production views |
 | Module 5 | sql_optimisation.py | Indexes, EXPLAIN, Benchmarking |
 | Module 6 | sql_de_capstone.py | Complete SQL DE Pipeline |
 
@@ -198,18 +131,40 @@ SQLite, Python and Pandas.
 - ⏱️ 2.46 seconds end-to-end
 - 🎯 5,174 customers targeted for retention
 - 💰 $3.8M annual revenue protected
-- 🔴 924 customers need immediate call
+- 🔴 924 customers flagged for immediate call
 - 📄 5 output files generated
 
-**SQL DE Skills Mastered:**
-- Advanced CASE WHEN and PIVOT patterns
-- Star Schema — FACT and DIM table design
-- Staging → Validate → Insert pipeline
-- INSERT, UPDATE, DELETE, UPSERT
-- COMMIT and ROLLBACK transactions
-- CREATE VIEW — 5 production views
-- EXPLAIN QUERY PLAN analysis
-- CREATE INDEX — 5 indexes with benchmarking
+---
+
+## ☁️ Week 6 — AWS Cloud for Data Engineering
+
+### Modules Completed
+
+| Module | File | AWS Service |
+|--------|------|-------------|
+| Module 1 | s3_basics.py | S3 — buckets, upload, download |
+| Module 2 | s3_data_lake.py | S3 — partitioning, data lake |
+| Module 3 | s3_etl_pipeline.py | S3 — Extract, Transform, Load |
+| Module 4 | athena_queries.py | Athena — serverless SQL on S3 |
+| Capstone | aws_de_capstone.py | Full AWS DE pipeline |
+
+### 🏆 Week 6 Capstone — AWS Telco DE Pipeline
+
+**Pipeline Results:**
+- ✅ 4 out of 4 stages completed
+- ⏱️ 36.48 seconds end-to-end
+- ☁️ 63 objects in AWS S3 data lake
+- 💾 5.5 MB in eu-north-1 (Stockholm)
+- 📊 7,043 customers analysed with Athena SQL
+- 💰 $139,130.85 monthly revenue at risk
+
+**AWS Services Used:**
+- Amazon S3 — Cloud data lake storage
+- AWS Glue — Serverless data catalogue
+- Amazon Athena — Serverless SQL on S3
+- AWS IAM — Identity and access management
+
+---
 
 ## ⚡ Week 7 — AWS Advanced Data Engineering
 
@@ -217,10 +172,10 @@ SQLite, Python and Pandas.
 
 | Module | File | AWS Service |
 |--------|------|-------------|
-| Module 1 | lambda_basics.py | AWS Lambda — Serverless functions |
-| Module 2 | glue_jobs.py | AWS Glue — Managed ETL jobs |
+| Module 1 | lambda_basics.py | Lambda — serverless functions |
+| Module 2 | glue_jobs.py | Glue — managed ETL jobs |
 | Module 3 | event_driven_pipeline.py | S3 Events + Lambda triggers |
-| Module 4 | step_functions.py | AWS Step Functions — Orchestration |
+| Module 4 | step_functions.py | Step Functions — orchestration |
 | Capstone | aws_advanced_capstone.py | Full serverless DE pipeline |
 
 ### 🏆 Week 7 Capstone — AWS Advanced DE Pipeline
@@ -230,18 +185,27 @@ SQLite, Python and Pandas.
 - ⏱️ 73.39 seconds end-to-end
 - ☁️ 89 objects in AWS S3 data lake
 - ⚡ 7 Lambda functions deployed
-- 🔧 1 Glue ETL job — 7,053 records in 24s
-- 🔄 Step Functions pipeline — SUCCEEDED
+- 🔧 Glue ETL — 7,053 records in 24 seconds
+- 🔄 Step Functions pipeline — SUCCEEDED in 10s
 - 🎯 Event-driven trigger — AUTO-TRIGGERED!
-- 🔍 Athena SQL — $139,130.85 at risk
 
 **AWS Services Used:**
 - S3 — Data lake storage
 - Lambda — Serverless Python functions
 - Glue — Managed ETL service
-- Athena — Serverless SQL on S3
+- Athena — Serverless SQL analytics
 - Step Functions — Pipeline orchestration
 - IAM — Security and access management
+
+---
+
+## 🔵 Week 8 — Azure Cloud for Data Engineering
+
+**Status: ⏸️ Paused — Physical debit/credit card required for Azure account setup. Virtual cards not supported.**
+
+Will resume once a supported payment method is available.
+
+---
 
 ## ⚡ Week 9 — Apache Spark for Data Engineering
 
@@ -249,9 +213,9 @@ SQLite, Python and Pandas.
 
 | Module | File | Skills |
 |--------|------|--------|
-| Module 1 | spark_basics.py | SparkSession, DataFrames, RDDs, lazy evaluation |
-| Module 2 | spark_dataframe_ops.py | Joins, window functions, when/otherwise logic |
-| Module 3 | spark_sql.py | spark.sql(), CTEs, subqueries, reusable views |
+| Module 1 | spark_basics.py | SparkSession, DataFrames, RDDs |
+| Module 2 | spark_dataframe_ops.py | Joins, window functions, when/otherwise |
+| Module 3 | spark_sql.py | spark.sql(), CTEs, subqueries, views |
 | Module 4 | spark_performance.py | Caching, broadcast joins, explain plans |
 | Capstone | spark_de_capstone.py | Complete distributed DE pipeline |
 
@@ -260,59 +224,73 @@ SQLite, Python and Pandas.
 **Pipeline Results:**
 - ✅ 5 out of 5 stages completed
 - ⏱️ 40.28 seconds end-to-end
-- 🔧 7,043 records processed with 8 CPU cores
+- 🔧 7,043 records on 8 CPU cores
 - ✅ 5 data quality checks — all passed
 - 📊 2,490 customers flagged Critical risk
 - 💰 $139,130.85 monthly revenue at risk
-- 🚀 1.7x speedup demonstrated with caching
+- 🚀 1.7x speedup with caching
 
 **Spark Skills Mastered:**
 - SparkSession, DataFrames and RDDs
-- Joins, window functions (RANK, PARTITION BY)
+- Joins and window functions (RANK, PARTITION BY)
 - Spark SQL — CTEs, subqueries, temp views
-- Performance tuning — caching, broadcast joins, repartitioning
+- Performance tuning — caching, broadcast joins
 - Explain plans and column pruning
 - Partitioned writes for optimized storage
 
-**Environment Setup Highlights:**
-Configured a full local Spark cluster on Windows from
-scratch — Java 17, Hadoop winutils, Python version
-alignment, and JVM/Python worker debugging. Real
-production-style troubleshooting experience.
+**Environment Setup:**
+Configured a full local Spark cluster on Windows
+from scratch — Java 17, Hadoop winutils, Python
+version alignment, and JVM worker debugging.
 
-## 🔍 Week 3 — REST APIs + BigQuery
+---
 
-### Modules Completed
+## 🛠️ Tech Stack
 
-| Module | File | Skills |
-|--------|------|--------|
-| Module 1 | bq_basics.py | Connect to BQ, public datasets, create dataset |
-| Module 2 | bq_python_client.py | Load CSV, autodetect schema, query, export |
-| Module 3 | bq_advanced_queries.py | Parameterised queries, JOINs, CTEs, window functions |
-| Capstone | bq_api_capstone.py | BigQuery + REST API merged pipeline |
+| Category | Technologies |
+|----------|-------------|
+| **Languages** | Python 3.11, SQL |
+| **Libraries** | Pandas, NumPy, Matplotlib, Seaborn, Requests, boto3, PySpark |
+| **Databases** | SQLite, BigQuery |
+| **Cloud — AWS** | S3, Lambda, Glue, Athena, Step Functions, IAM |
+| **Cloud — GCP** | BigQuery Sandbox |
+| **Cloud — Azure** | Pending setup |
+| **Big Data** | Apache Spark 4.1.2, Java 17 |
+| **Version Control** | Git, GitHub |
+| **Tools** | VS Code, AWS CLI, gcloud CLI |
 
-### 🏆 Week 3 Capstone — BigQuery + REST API Pipeline
+---
 
-**Pipeline Results:**
-- ✅ 5 pipeline stages completed
-- ⏱️ 82.47 seconds end-to-end
-- 📊 7,043 rows loaded into BigQuery Sandbox
-- 🔍 3 tables created in telco_de_bootcamp dataset
-- 🌍 REST Countries + Open-Meteo APIs integrated
-- 💰 Fiber optic service: 41.89% churn rate
-- 💸 Annual revenue at risk: $5,473,399.20
+## 📁 Repository Structure
 
-**BigQuery Skills Mastered:**
-- BigQuery Sandbox — no credit card needed
-- autodetect schema for CSV loading
-- Parameterised queries (@parameter syntax)
-- BigQuery JOINs across multiple tables
-- CTEs, window functions, COUNTIF, STDDEV
-- load_table_from_dataframe() — Pandas to BQ
-- job.to_dataframe() — BQ results to Pandas
+DE-Bootcamp/
 
-## 👤 Author
-**Lawrence Koomson**
-Data Engineering Student | Accra, Ghana
-🔗 [LinkedIn](https://linkedin.com/in/lawrence-koomson-689774266)
-🐙 [GitHub](https://github.com/lawrykoomson)
+├── week-1/          # Python for DE
+
+├── week-2/          # Pandas for DE
+
+├── week-3/          # REST APIs + BigQuery
+
+│   ├── scripts/     # API scripts
+
+│   └── bigquery/    # BigQuery modules
+
+├── week-4/          # SQL Foundations
+
+├── week-5/          # SQL for DE
+
+├── week-6/          # AWS Cloud
+
+├── week-7/          # AWS Advanced
+
+├── week-9/          # Apache Spark
+
+└── README.md
+
+---
+
+## 🔗 Links
+
+- **GitHub:** https://github.com/lawrykoomson/DE-Bootcamp
+- **LinkedIn:** https://linkedin.com/in/lawrence-koomson-689774266
+- **Bootcamp:** GetSkills Network & Thrive Africa Data Engineering Bootcamp
