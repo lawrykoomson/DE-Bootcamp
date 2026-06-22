@@ -19,7 +19,62 @@
 | Week 7 | AWS Advanced — Lambda, Glue, Step Functions | ✅ Complete |
 | Week 8 | Azure Cloud for Data Engineering | ⏸️ Paused — Account setup pending |
 | Week 9 | Apache Spark for Data Engineering | ✅ Complete |
-| Final | Capstone Project | ⏳ Coming |
+| **Final** | **Telco Churn Intelligence Platform** | ✅ **Complete** |
+
+---
+
+## 🏆 Final Capstone — Telco Churn Intelligence Platform
+
+A production-grade, end-to-end Data Engineering pipeline connecting four cloud platforms and data sources into one unified system.
+
+### Pipeline Architecture
+
+Local CSV → AWS S3 Data Lake → Google BigQuery → Apache Spark
+↓ ↓ ↓ ↓
+REST APIs → Transformation → Risk Scoring → Visualizations → Master Report
+
+### Modules Completed
+
+| Module | File | Technologies |
+|--------|------|-------------|
+| Module 1 | capstone_ingestion.py | Python, boto3, BigQuery, REST APIs |
+| Module 2 | capstone_transform.py | Pandas, NumPy, risk scoring engine |
+| Module 3 | capstone_spark.py | PySpark, Spark SQL, window functions |
+| Module 4 | capstone_visualize.py | Matplotlib — 5 executive charts |
+| Module 5 | capstone_final_report.py | JSON reporting, master summary |
+
+### 🏆 Capstone Results
+
+| Metric | Value |
+|--------|-------|
+| Total customers analysed | 7,043 |
+| Churn rate | 26.54% |
+| Monthly revenue | $456,116.60 |
+| Annual revenue modelled | $5,473,399.20 |
+| Monthly revenue at risk | $139,130.85 |
+| Critical risk customers | 2,490 |
+| Immediate intervention needed | 924 customers |
+| Executive charts generated | 5 |
+| Pipeline modules | 5/5 ✅ |
+
+### Technology Stack
+
+| Component | Technology |
+|-----------|-----------|
+| Data Ingestion | Python, Pandas, boto3 |
+| Cloud Data Lake | AWS S3 (eu-north-1) |
+| Cloud Data Warehouse | Google BigQuery Sandbox |
+| Distributed Processing | Apache Spark 4.1.2 (8 cores) |
+| REST APIs | Open-Meteo, REST Countries |
+| Visualizations | Matplotlib (5 charts) |
+| Reporting | JSON + CSV outputs |
+
+### Key Business Findings
+
+- **Highest churn segment:** Month-to-month + Fiber optic = **54.6% churn rate**
+- **Lowest churn segment:** Two-year + No internet = **0.8% churn rate**
+- **Top intervention:** 924 customers flagged for immediate phone call
+- **Revenue protection:** $139,130.85/month recoverable with targeted retention
 
 ---
 
@@ -38,10 +93,12 @@
 
 ### 🏆 Week 1 Capstone — Ghana HR Pipeline
 
-**Pipeline Results:**
-- ✅ 10 records processed
-- ✅ 7 valid, 3 rejected
-- ⏱️ 0.02 seconds runtime
+| Metric | Result |
+|--------|--------|
+| Records processed | 10 |
+| Valid records | 7 |
+| Rejected records | 3 |
+| Runtime | 0.02 seconds |
 
 ---
 
@@ -60,11 +117,12 @@
 
 ### 🏆 Week 2 Capstone — Telco Churn Pipeline
 
-**Pipeline Results:**
-- ✅ 7,043 rows processed
-- ✅ 26.54% churn rate identified
-- ✅ $139,130.85/month revenue at risk
-- ⏱️ 3.55 seconds runtime
+| Metric | Result |
+|--------|--------|
+| Rows processed | 7,043 |
+| Churn rate | 26.54% |
+| Revenue at risk | $139,130.85/month |
+| Runtime | 3.55 seconds |
 
 ---
 
@@ -84,23 +142,21 @@
 
 ### 🏆 Week 3 Capstone — BigQuery + REST API Pipeline
 
-**Pipeline Results:**
-- ✅ 5 pipeline stages completed
-- ⏱️ 82.47 seconds end-to-end
-- 📊 7,043 rows loaded into BigQuery Sandbox
-- 🔍 3 tables in telco_de_bootcamp dataset
-- 🌍 REST Countries + Open-Meteo APIs integrated
-- 💰 Fiber optic: 41.89% churn rate
-- 💸 Annual revenue at risk: $5,473,399.20
+| Metric | Result |
+|--------|--------|
+| Rows loaded to BigQuery | 7,043 |
+| BQ tables created | 3 |
+| APIs integrated | Open-Meteo + REST Countries |
+| Fiber optic churn rate | 41.89% |
+| Annual revenue at risk | $5,473,399.20 |
+| Runtime | 82.47 seconds |
 
-**BigQuery Skills Mastered:**
+**BigQuery Skills:**
 - BigQuery Sandbox — no credit card needed
 - autodetect schema for CSV loading
 - Parameterised queries with @parameter syntax
-- BigQuery JOINs across multiple tables
-- CTEs, window functions, COUNTIF, STDDEV
-- load_table_from_dataframe() — Pandas to BQ
-- job.to_dataframe() — BQ results to Pandas
+- JOINs, CTEs, window functions, COUNTIF, STDDEV
+- load_table_from_dataframe() and job.to_dataframe()
 
 ---
 
@@ -123,16 +179,16 @@
 | Module 5 | sql_optimisation.py | Indexes, EXPLAIN, Benchmarking |
 | Module 6 | sql_de_capstone.py | Complete SQL DE Pipeline |
 
-### 🏆 Week 5 Capstone — SQL Data Engineering Pipeline v2
+### 🏆 Week 5 Capstone — SQL Data Engineering Pipeline
 
-**Pipeline Results:**
-- ✅ 17 database objects — tables + views
-- ✅ 6 data quality checks — all passed
-- ⏱️ 2.46 seconds end-to-end
-- 🎯 5,174 customers targeted for retention
-- 💰 $3.8M annual revenue protected
-- 🔴 924 customers flagged for immediate call
-- 📄 5 output files generated
+| Metric | Result |
+|--------|--------|
+| Database objects created | 17 |
+| Data quality checks | 6/6 passed |
+| Customers targeted | 5,174 |
+| Annual revenue protected | $3.8M |
+| Immediate calls flagged | 924 |
+| Runtime | 2.46 seconds |
 
 ---
 
@@ -150,19 +206,14 @@
 
 ### 🏆 Week 6 Capstone — AWS Telco DE Pipeline
 
-**Pipeline Results:**
-- ✅ 4 out of 4 stages completed
-- ⏱️ 36.48 seconds end-to-end
-- ☁️ 63 objects in AWS S3 data lake
-- 💾 5.5 MB in eu-north-1 (Stockholm)
-- 📊 7,043 customers analysed with Athena SQL
-- 💰 $139,130.85 monthly revenue at risk
-
-**AWS Services Used:**
-- Amazon S3 — Cloud data lake storage
-- AWS Glue — Serverless data catalogue
-- Amazon Athena — Serverless SQL on S3
-- AWS IAM — Identity and access management
+| Metric | Result |
+|--------|--------|
+| Pipeline stages | 4/4 |
+| S3 objects | 63 |
+| Data size | 5.5 MB (eu-north-1) |
+| Customers analysed | 7,043 |
+| Revenue at risk | $139,130.85 |
+| Runtime | 36.48 seconds |
 
 ---
 
@@ -180,28 +231,21 @@
 
 ### 🏆 Week 7 Capstone — AWS Advanced DE Pipeline
 
-**Pipeline Results:**
-- ✅ 6 out of 6 stages completed
-- ⏱️ 73.39 seconds end-to-end
-- ☁️ 89 objects in AWS S3 data lake
-- ⚡ 7 Lambda functions deployed
-- 🔧 Glue ETL — 7,053 records in 24 seconds
-- 🔄 Step Functions pipeline — SUCCEEDED in 10s
-- 🎯 Event-driven trigger — AUTO-TRIGGERED!
-
-**AWS Services Used:**
-- S3 — Data lake storage
-- Lambda — Serverless Python functions
-- Glue — Managed ETL service
-- Athena — Serverless SQL analytics
-- Step Functions — Pipeline orchestration
-- IAM — Security and access management
+| Metric | Result |
+|--------|--------|
+| Pipeline stages | 6/6 |
+| S3 objects | 89 |
+| Lambda functions deployed | 7 |
+| Glue ETL runtime | 24 seconds |
+| Step Functions status | SUCCEEDED |
+| Event-driven trigger | AUTO-TRIGGERED ✅ |
+| Runtime | 73.39 seconds |
 
 ---
 
 ## 🔵 Week 8 — Azure Cloud for Data Engineering
 
-**Status: ⏸️ Paused — Physical debit/credit card required for Azure account setup. Virtual cards not supported.**
+**Status: ⏸️ Paused — Physical debit/credit card required for Azure account setup. Virtual/prepaid cards not supported.**
 
 Will resume once a supported payment method is available.
 
@@ -221,71 +265,74 @@ Will resume once a supported payment method is available.
 
 ### 🏆 Week 9 Capstone — Spark Telco DE Pipeline
 
-**Pipeline Results:**
-- ✅ 5 out of 5 stages completed
-- ⏱️ 40.28 seconds end-to-end
-- 🔧 7,043 records on 8 CPU cores
-- ✅ 5 data quality checks — all passed
-- 📊 2,490 customers flagged Critical risk
-- 💰 $139,130.85 monthly revenue at risk
-- 🚀 1.7x speedup with caching
-
-**Spark Skills Mastered:**
-- SparkSession, DataFrames and RDDs
-- Joins and window functions (RANK, PARTITION BY)
-- Spark SQL — CTEs, subqueries, temp views
-- Performance tuning — caching, broadcast joins
-- Explain plans and column pruning
-- Partitioned writes for optimized storage
+| Metric | Result |
+|--------|--------|
+| Pipeline stages | 5/5 |
+| Rows processed | 7,043 |
+| CPU cores used | 8 |
+| Data quality checks | 5/5 passed |
+| Critical risk customers | 2,490 |
+| Revenue at risk | $139,130.85 |
+| Cache speedup | 1.7x faster |
+| Runtime | 40.28 seconds |
 
 **Environment Setup:**
-Configured a full local Spark cluster on Windows
-from scratch — Java 17, Hadoop winutils, Python
-version alignment, and JVM worker debugging.
+Configured a full local Spark cluster on Windows from scratch — Java 17, Hadoop winutils, Python version alignment, and JVM worker debugging.
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ Full Tech Stack
 
 | Category | Technologies |
 |----------|-------------|
 | **Languages** | Python 3.11, SQL |
-| **Libraries** | Pandas, NumPy, Matplotlib, Seaborn, Requests, boto3, PySpark |
-| **Databases** | SQLite, BigQuery |
+| **Libraries** | Pandas, NumPy, Matplotlib, Requests, boto3, PySpark |
+| **Databases** | SQLite, Google BigQuery |
 | **Cloud — AWS** | S3, Lambda, Glue, Athena, Step Functions, IAM |
-| **Cloud — GCP** | BigQuery Sandbox |
-| **Cloud — Azure** | Pending setup |
-| **Big Data** | Apache Spark 4.1.2, Java 17 |
+| **Cloud — GCP** | BigQuery Sandbox (de-bootcamp-sandbox) |
+| **Cloud — Azure** | ⏸️ Pending setup |
+| **Big Data** | Apache Spark 4.1.2, Java 17, Hadoop |
 | **Version Control** | Git, GitHub |
 | **Tools** | VS Code, AWS CLI, gcloud CLI |
+| **APIs** | Open-Meteo, REST Countries, World Bank |
 
 ---
 
 ## 📁 Repository Structure
 
 DE-Bootcamp/
-
-├── week-1/          # Python for DE
-
-├── week-2/          # Pandas for DE
-
-├── week-3/          # REST APIs + BigQuery
-
-│   ├── scripts/     # API scripts
-
-│   └── bigquery/    # BigQuery modules
-
-├── week-4/          # SQL Foundations
-
-├── week-5/          # SQL for DE
-
-├── week-6/          # AWS Cloud
-
-├── week-7/          # AWS Advanced
-
-├── week-9/          # Apache Spark
-
+├── week-1/ # Python for DE
+├── week-2/ # Pandas for DE
+│ └── data/processed/ # telco_clean.csv (shared dataset)
+├── week-3/ # REST APIs + BigQuery
+│ ├── scripts/ # API scripts
+│ └── bigquery/ # BigQuery modules
+├── week-4/ # SQL Foundations
+├── week-5/ # SQL for DE
+├── week-6/ # AWS Cloud
+├── week-7/ # AWS Advanced
+├── week-9/ # Apache Spark
+├── final_capstone/ # Final Capstone Project
+│ ├── scripts/ # 5 pipeline modules
+│ ├── data/ # Processed datasets
+│ ├── reports/ # JSON + CSV reports
+│ └── charts/ # 5 executive charts
 └── README.md
+
+---
+
+## 🔑 Consistent Results Across All Tools
+
+One dataset, validated across every technology:
+
+| Tool | Churn Rate | Revenue at Risk |
+|------|-----------|-----------------|
+| Pandas (Week 2) | 26.54% | $139,130.85 |
+| SQL/SQLite (Week 5) | 26.54% | $139,130.85 |
+| AWS Athena (Week 6) | 26.54% | $139,130.85 |
+| Google BigQuery (Week 3) | 26.54% | $456,116.60 total |
+| Apache Spark (Week 9) | 26.54% | $139,130.85 |
+| Final Capstone | 26.54% | $139,130.85 |
 
 ---
 
