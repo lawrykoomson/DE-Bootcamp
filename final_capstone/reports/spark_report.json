@@ -1,0 +1,14 @@
+{
+    "module": "Spark Processing",
+    "run_timestamp": "2026-06-21 20:13:31",
+    "duration_seconds": 24.64,
+    "spark_version": "4.1.2",
+    "cores_used": 8,
+    "rows_processed": 7043,
+    "executive_summary": {
+        "total_customers": 7043,
+        "churn_rate_pct": 26.54,
+        "annual_revenue": 5473399.2,
+        "revenue_at_risk": 139130.85
+    }
+}

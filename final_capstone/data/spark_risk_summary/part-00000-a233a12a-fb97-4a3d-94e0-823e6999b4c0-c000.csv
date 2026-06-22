@@ -1,0 +1,5 @@
+risk_label,customers,churned,churn_rate_pct,avg_monthly,total_ltv
+Critical,2490,1209,48.6,64.22,2133785.75
+Low,1969,98,5.0,65.91,7752064.0
+Medium,1325,209,15.8,67.11,4196587.7
+High,1259,353,28.0,61.56,1972654.0

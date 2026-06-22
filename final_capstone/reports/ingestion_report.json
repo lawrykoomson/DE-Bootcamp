@@ -1,0 +1,32 @@
+{
+    "module": "Data Ingestion",
+    "pipeline": "Telco Churn Intelligence Platform",
+    "author": "Lawrence Koomson",
+    "run_timestamp": "2026-06-21 20:02:41",
+    "sources": {
+        "local_csv": {
+            "rows": 7043,
+            "status": "SUCCESS"
+        },
+        "s3": {
+            "objects": 96,
+            "size_kb": 6082.1,
+            "status": "SUCCESS"
+        },
+        "bigquery": {
+            "rows": 7043,
+            "status": "SUCCESS"
+        },
+        "apis": {
+            "weather": 24.4,
+            "country": "Ghana",
+            "status": "SUCCESS"
+        }
+    },
+    "errors": [],
+    "telco_data": {
+        "rows": 7043,
+        "columns": 23,
+        "churn_rate": 26.54
+    }
+}

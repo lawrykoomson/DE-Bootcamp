@@ -1,0 +1,44 @@
+{
+    "module": "Transformation",
+    "run_timestamp": "2026-06-21 20:07:47",
+    "data_quality": "ALL PASSED",
+    "input_rows": 7043,
+    "columns_after_transform": 31,
+    "risk_distribution": {
+        "Critical": 2490,
+        "Low": 1969,
+        "Medium": 1325,
+        "High": 1259
+    },
+    "intervention_summary": [
+        {
+            "action": "\ud83d\udd34 Immediate call",
+            "customers": 924,
+            "revenue": 49686.8
+        },
+        {
+            "action": "\ud83d\udfe0 Auto-pay offer",
+            "customers": 1011,
+            "revenue": 61911.9
+        },
+        {
+            "action": "\ud83d\udfe1 Email campaign",
+            "customers": 852,
+            "revenue": 51203.75
+        },
+        {
+            "action": "\ud83d\udfe2 Standard programme",
+            "customers": 2387,
+            "revenue": 154183.3
+        }
+    ],
+    "top_risk_segment": {
+        "contract": "Month-to-month",
+        "internet": "Fiber optic",
+        "churn_rate_pct": 54.6
+    },
+    "market_context": {
+        "country": "Ghana",
+        "temperature_c": 24.4
+    }
+}

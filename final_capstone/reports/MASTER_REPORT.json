@@ -1,0 +1,105 @@
+{
+    "pipeline_name": "Telco Churn Intelligence Platform",
+    "author": "Lawrence Koomson",
+    "bootcamp": "GetSkills Network & Thrive Africa",
+    "generated_at": "2026-06-22 20:19:29",
+    "modules_completed": [
+        "1. Data Ingestion (CSV + S3 + BigQuery + APIs)",
+        "2. Transformation & Risk Scoring",
+        "3. Spark Distributed Processing",
+        "4. Visualizations",
+        "5. Final Reporting"
+    ],
+    "technologies_used": {
+        "languages": [
+            "Python",
+            "SQL"
+        ],
+        "libraries": [
+            "Pandas",
+            "NumPy",
+            "Matplotlib",
+            "PySpark",
+            "boto3",
+            "requests"
+        ],
+        "cloud_aws": [
+            "S3"
+        ],
+        "cloud_gcp": [
+            "BigQuery"
+        ],
+        "big_data": [
+            "Apache Spark"
+        ],
+        "apis": [
+            "Open-Meteo",
+            "REST Countries"
+        ]
+    },
+    "data_sources": {
+        "local_csv": {
+            "rows": 7043,
+            "status": "SUCCESS"
+        },
+        "s3": {
+            "objects": 96,
+            "size_kb": 6082.1,
+            "status": "SUCCESS"
+        },
+        "bigquery": {
+            "rows": 7043,
+            "status": "SUCCESS"
+        },
+        "apis": {
+            "weather": 24.4,
+            "country": "Ghana",
+            "status": "SUCCESS"
+        }
+    },
+    "data_quality": "ALL PASSED",
+    "executive_summary": {
+        "total_customers": 7043,
+        "churn_rate_pct": 26.54,
+        "annual_revenue": 5473399.2,
+        "revenue_at_risk": 139130.85
+    },
+    "risk_distribution": {
+        "Critical": 2490,
+        "Low": 1969,
+        "Medium": 1325,
+        "High": 1259
+    },
+    "intervention_strategy": [
+        {
+            "action": "\ud83d\udd34 Immediate call",
+            "customers": 924,
+            "revenue": 49686.8
+        },
+        {
+            "action": "\ud83d\udfe0 Auto-pay offer",
+            "customers": 1011,
+            "revenue": 61911.9
+        },
+        {
+            "action": "\ud83d\udfe1 Email campaign",
+            "customers": 852,
+            "revenue": 51203.75
+        },
+        {
+            "action": "\ud83d\udfe2 Standard programme",
+            "customers": 2387,
+            "revenue": 154183.3
+        }
+    ],
+    "top_risk_segment": {
+        "contract": "Month-to-month",
+        "internet": "Fiber optic",
+        "churn_rate_pct": 54.6
+    },
+    "performance": {
+        "spark_duration_seconds": 24.64,
+        "spark_cores_used": 8,
+        "spark_version": "4.1.2"
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "weather": {
+        "city": "Accra",
+        "temperature_c": 24.4,
+        "humidity_pct": 91,
+        "wind_kmh": 10.8
+    },
+    "ghana": {
+        "name": "Ghana",
+        "status": "unavailable"
+    }
+}
